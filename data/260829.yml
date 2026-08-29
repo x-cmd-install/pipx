@@ -1,0 +1,56 @@
+about:
+  description: Install and Run Python Applications in Isolated Environments
+  license: MIT
+  homepage: https://pipx.pypa.io
+  head: 3ca5d73
+  archived: false
+  latestVersion: 1.16.7
+  collectedAt: 2026-08-29T07:20:12Z
+timeline:
+  created: 2018-10-06
+  lastCommit: 2026-08-29
+  lastRelease: 2026-08-13
+popularity:
+  star: 12947
+  watcher: 76
+  fork: 589
+  release: 59
+  contributor: 257
+  pullRequest: 154
+  issue: 911
+language:
+  Python: 1130416
+totalLine: 1130416
+recent:
+  last30d:
+    since: 2026-07-30
+    release: 2
+    mergedPR: 19
+    openPR: 0
+    closedIssue: 5
+    openIssue: 1
+    commit: 0
+  last90d:
+    since: 2026-05-31
+    release: 13
+    mergedPR: 163
+    openPR: 0
+    closedIssue: 23
+    openIssue: 1
+    commit: 0
+  last180d:
+    since: 2026-03-02
+    release: 21
+    mergedPR: 230
+    openPR: 0
+    closedIssue: 36
+    openIssue: 1
+    commit: 0
+  last360d:
+    since: 2025-09-03
+    release: 22
+    mergedPR: 253
+    openPR: 0
+    closedIssue: 57
+    openIssue: 1
+    commit: 0
