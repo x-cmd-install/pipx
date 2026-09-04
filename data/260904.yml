@@ -7,7 +7,7 @@ about:
   head: c490b45
   archived: false
   latestVersion: 1.17.2
-  collectedAt: 2026-09-04T19:57:57Z
+  collectedAt: 2026-09-04T20:45:28Z
 timeline:
   created: 2018-10-06
   lastCommit: 2026-09-02
@@ -80,6 +80,54 @@ total:
   openIssue: 0
   commit: 1130
 ---
+path: /home/runner/.x-repo/github.com/pypa/pipx
+collectedAt: 2026-09-04T20:45:29Z
+loc:
+  Python:
+    code: 26163
+    comments: 572
+    blanks: 5072
+    files: 129
+  ReStructuredText:
+    code: 4133
+    comments: 0
+    blanks: 1531
+    files: 39
+  Toml:
+    code: 336
+    comments: 9
+    blanks: 19
+    files: 3
+  Svg:
+    code: 246
+    comments: 0
+    blanks: 0
+    files: 2
+  Json:
+    code: 65
+    comments: 0
+    blanks: 0
+    files: 1
+  Css:
+    code: 40
+    comments: 17
+    blanks: 7
+    files: 1
+  Fish:
+    code: 1
+    comments: 0
+    blanks: 0
+    files: 1
+  Markdown:
+    code: 0
+    comments: 99
+    blanks: 40
+    files: 4
+total:
+  code: 30984
+  comments: 697
+  blanks: 6669
+  files: 180
 ---
 date: "2026-08-24"
 repo:
