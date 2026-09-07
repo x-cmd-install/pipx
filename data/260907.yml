@@ -5,19 +5,19 @@ about:
   head: c490b45
   archived: false
   latestVersion: "1.17.2"
-  collectedAt: 2026-09-07T05:41:49Z
+  collectedAt: 2026-09-07T18:47:29Z
 timeline:
   created: 2018-10-06
   lastCommit: 2026-09-02
   lastRelease: 2026-09-01
 popularity:
-  star: 12953
+  star: 12954
   watcher: 78
   fork: 592
   release: 61
   contributor: 259
   pullRequest: 1047
-  issue: 911
+  issue: 912
 language:
   Python: 1132706
 totalBytes: 1132706
@@ -28,7 +28,7 @@ recent:
     mergedPR: 23
     openPR: 1
     closedIssue: 5
-    openIssue: 0
+    openIssue: 1
     commit: 22
   last60d:
     since: 2026-07-09
@@ -36,7 +36,7 @@ recent:
     mergedPR: 142
     openPR: 1
     closedIssue: 17
-    openIssue: 0
+    openIssue: 1
     commit: 64
   last90d:
     since: 2026-06-09
@@ -44,7 +44,7 @@ recent:
     mergedPR: 153
     openPR: 1
     closedIssue: 22
-    openIssue: 0
+    openIssue: 1
     commit: 178
   last180d:
     since: 2026-03-11
@@ -52,7 +52,7 @@ recent:
     mergedPR: 234
     openPR: 1
     closedIssue: 37
-    openIssue: 0
+    openIssue: 1
     commit: 271
   last360d:
     since: 2025-09-12
@@ -60,7 +60,7 @@ recent:
     mergedPR: 256
     openPR: 1
     closedIssue: 56
-    openIssue: 0
+    openIssue: 1
     commit: 295
   last720d:
     since: 2024-09-17
@@ -68,18 +68,18 @@ recent:
     mergedPR: 287
     openPR: 1
     closedIssue: 126
-    openIssue: 0
+    openIssue: 1
     commit: 318
 total:
   release: 61
   mergedPR: 891
   openPR: 1
   closedIssue: 911
-  openIssue: 0
+  openIssue: 1
   commit: 1130
 ---
 path: /home/runner/.x-repo/github.com/pypa/pipx
-collectedAt: 2026-09-07T05:41:51Z
+collectedAt: 2026-09-07T18:47:31Z
 loc:
   Python:
     code: 26163
@@ -234,7 +234,7 @@ checks:
       - 'Warn: 24 commits out of 25 are checked with a SAST tool'
 ---
 eget:
-  collectedAt: 2026-09-07T05:41:52+00:00
+  collectedAt: 2026-09-07T18:47:31+00:00
   platform:
     darwin/arm64:
       name:  null
