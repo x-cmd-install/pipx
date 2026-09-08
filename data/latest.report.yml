@@ -2,89 +2,89 @@ about:
   description: "Install and Run Python Applications in Isolated Environments"
   license: MIT
   homepage: https://pipx.pypa.io
-  head: c490b45
+  head: 5eb75bd
   archived: false
   latestVersion: "1.17.2"
-  collectedAt: 2026-09-08T02:51:28Z
+  collectedAt: 2026-09-08T05:44:37Z
 timeline:
   created: 2018-10-06
-  lastCommit: 2026-09-02
+  lastCommit: 2026-09-08
   lastRelease: 2026-09-01
 popularity:
   star: 12955
   watcher: 78
   fork: 592
   release: 61
-  contributor: 259
+  contributor: 260
   pullRequest: 1048
   issue: 912
 language:
-  Python: 1132706
-totalBytes: 1132706
+  Python: 1135307
+totalBytes: 1135307
 recent:
   last30d:
     since: 2026-08-09
     release: 3
-    mergedPR: 23
-    openPR: 2
+    mergedPR: 25
+    openPR: 0
     closedIssue: 5
     openIssue: 1
-    commit: 22
+    commit: 24
   last60d:
     since: 2026-07-10
     release: 12
-    mergedPR: 140
-    openPR: 2
+    mergedPR: 142
+    openPR: 0
     closedIssue: 17
     openIssue: 1
-    commit: 64
+    commit: 66
   last90d:
     since: 2026-06-10
     release: 14
-    mergedPR: 153
-    openPR: 2
+    mergedPR: 155
+    openPR: 0
     closedIssue: 22
     openIssue: 1
-    commit: 178
+    commit: 180
   last180d:
     since: 2026-03-12
     release: 23
-    mergedPR: 234
-    openPR: 2
+    mergedPR: 236
+    openPR: 0
     closedIssue: 37
     openIssue: 1
-    commit: 271
+    commit: 273
   last360d:
     since: 2025-09-13
     release: 24
-    mergedPR: 256
-    openPR: 2
+    mergedPR: 258
+    openPR: 0
     closedIssue: 56
     openIssue: 1
-    commit: 295
+    commit: 297
   last720d:
     since: 2024-09-18
     release: 24
-    mergedPR: 287
-    openPR: 2
+    mergedPR: 289
+    openPR: 0
     closedIssue: 126
     openIssue: 1
-    commit: 318
+    commit: 320
 total:
   release: 61
-  mergedPR: 891
-  openPR: 2
+  mergedPR: 893
+  openPR: 0
   closedIssue: 911
   openIssue: 1
-  commit: 1130
+  commit: 1132
 ---
 path: /home/runner/.x-repo/github.com/pypa/pipx
-collectedAt: 2026-09-08T02:51:30Z
+collectedAt: 2026-09-08T05:44:39Z
 loc:
   Python:
-    code: 26163
-    comments: 572
-    blanks: 5072
+    code: 26211
+    comments: 575
+    blanks: 5090
     files: 129
   ReStructuredText:
     code: 4133
@@ -118,14 +118,14 @@ loc:
     files: 1
   Markdown:
     code: 0
-    comments: 99
+    comments: 101
     blanks: 40
-    files: 4
+    files: 5
 total:
-  code: 30984
-  comments: 697
-  blanks: 6669
-  files: 180
+  code: 31032
+  comments: 702
+  blanks: 6687
+  files: 181
 ---
 date: "2026-08-24"
 repo:
@@ -233,4 +233,4 @@ checks:
     details:
       - 'Warn: 24 commits out of 25 are checked with a SAST tool'
 ---
-{"id":380845031,"author":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOCQ1fNs4Wszvn","tag_name":"1.17.2","target_commitish":"main","name":"1.17.2","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-09-01T21:32:54Z","updated_at":"2026-09-01T21:51:25Z","published_at":"2026-09-01T21:50:56Z","assets":[{"id":540192956,"node_id":"RA_kwDOCQ1fNs4gMrC8","name":"pipx.pyz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/octet-stream","state":"uploaded","size":880501,"digest":"sha256:31d517b7afebf55d3b597d613c735389068a973a54712a50641845cf2cb2bb1d","download_count":9591,"created_at":"2026-09-01T21:51:25Z","updated_at":"2026-09-01T21:51:25Z"}],"body":"<!-- Release notes generated using configuration in .github/release.yml at 1.17.2 -->\n\n## What's Changed\n* Avoid KeyError in _REQUIRES_PYTHON_SCRIPT by @Cycloctane in https://github.com/pypa/pipx/pull/2026\n\n\n**Full Changelog**: https://github.com/pypa/pipx/compare/1.17.1...1.17.2","reactions":{"total_count":1,"+1":0,"-1":0,"laugh":0,"hooray":1,"confused":0,"heart":0,"rocket":0,"eyes":0},"mentions_count":1}
+{"id":380845031,"author":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"node_id":"RE_kwDOCQ1fNs4Wszvn","tag_name":"1.17.2","target_commitish":"main","name":"1.17.2","draft":false,"immutable":false,"prerelease":false,"created_at":"2026-09-01T21:32:54Z","updated_at":"2026-09-01T21:51:25Z","published_at":"2026-09-01T21:50:56Z","assets":[{"id":540192956,"node_id":"RA_kwDOCQ1fNs4gMrC8","name":"pipx.pyz","label":"","uploader":{"login":"github-actions[bot]","id":41898282,"node_id":"MDM6Qm90NDE4OTgyODI=","gravatar_id":"","type":"Bot","user_view_type":"public","site_admin":false},"content_type":"application/octet-stream","state":"uploaded","size":880501,"digest":"sha256:31d517b7afebf55d3b597d613c735389068a973a54712a50641845cf2cb2bb1d","download_count":9766,"created_at":"2026-09-01T21:51:25Z","updated_at":"2026-09-01T21:51:25Z"}],"body":"<!-- Release notes generated using configuration in .github/release.yml at 1.17.2 -->\n\n## What's Changed\n* Avoid KeyError in _REQUIRES_PYTHON_SCRIPT by @Cycloctane in https://github.com/pypa/pipx/pull/2026\n\n\n**Full Changelog**: https://github.com/pypa/pipx/compare/1.17.1...1.17.2","reactions":{"total_count":1,"+1":0,"-1":0,"laugh":0,"hooray":1,"confused":0,"heart":0,"rocket":0,"eyes":0},"mentions_count":1}
