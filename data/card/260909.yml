@@ -7,7 +7,7 @@ about:
   latestVersion: "1.17.2"
   latestRelease: "1.17.2"
   latestPrerelease: ""
-  collectedAt: 2026-09-09T05:48:18Z
+  collectedAt: 2026-09-09T20:12:40Z
 timeline:
   created: 2018-10-06
   lastCommit: 2026-09-08
@@ -15,12 +15,12 @@ timeline:
   lastRelease: 2026-09-01
   lastPrerelease: 
 popularity:
-  star: 12958
+  star: 12957
   watcher: 78
   fork: 593
   release: 61
   contributor: 260
-  pullRequest: 1049
+  pullRequest: 1050
   issue: 912
 language:
   Python: 1135307
@@ -30,60 +30,60 @@ recent:
     since: 2026-08-10
     release: 3
     mergedPR: 25
-    openPR: 0
+    openPR: 1
     closedIssue: 5
     openIssue: 1
-    commit: 0
+    commit: 25
   last60d:
     since: 2026-07-11
     release: 12
     mergedPR: 101
-    openPR: 0
+    openPR: 1
     closedIssue: 17
     openIssue: 1
-    commit: 0
+    commit: 67
   last90d:
     since: 2026-06-11
     release: 14
     mergedPR: 155
-    openPR: 0
+    openPR: 1
     closedIssue: 22
     openIssue: 1
-    commit: 0
+    commit: 181
   last180d:
     since: 2026-03-13
     release: 23
     mergedPR: 237
-    openPR: 0
+    openPR: 1
     closedIssue: 37
     openIssue: 1
-    commit: 0
+    commit: 274
   last360d:
     since: 2025-09-14
     release: 24
     mergedPR: 259
-    openPR: 0
+    openPR: 1
     closedIssue: 56
     openIssue: 1
-    commit: 0
+    commit: 298
   last720d:
     since: 2024-09-19
     release: 24
     mergedPR: 290
-    openPR: 0
+    openPR: 1
     closedIssue: 126
     openIssue: 1
     commit: 321
 total:
   release: 61
   mergedPR: 894
-  openPR: 0
+  openPR: 1
   closedIssue: 911
   openIssue: 1
   commit: 1133
 ---
 path: /home/runner/.x-repo/github.com/pypa/pipx
-collectedAt: 2026-09-09T05:48:19Z
+collectedAt: 2026-09-09T20:12:43Z
 loc:
   Python:
     code: 26211
