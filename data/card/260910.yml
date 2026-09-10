@@ -7,7 +7,7 @@ about:
   latestVersion: "1.17.2"
   latestRelease: "1.17.2"
   latestPrerelease: ""
-  collectedAt: 2026-09-10T05:52:28Z
+  collectedAt: 2026-09-10T20:35:56Z
 timeline:
   created: 2018-10-06
   lastCommit: 2026-09-08
@@ -15,7 +15,7 @@ timeline:
   lastRelease: 2026-09-01
   lastPrerelease: 
 popularity:
-  star: 12957
+  star: 12958
   watcher: 78
   fork: 593
   release: 61
@@ -83,7 +83,7 @@ total:
   commit: 1133
 ---
 path: /home/runner/.x-repo/github.com/pypa/pipx
-collectedAt: 2026-09-10T05:52:29Z
+collectedAt: 2026-09-10T20:35:57Z
 loc:
   Python:
     code: 26211
