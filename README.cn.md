@@ -4,42 +4,13 @@
 
 Install and Run Python Applications in Isolated Environments
 
-![pipx](https://repo.x-cmd.io/pipx.svg)
+![pipx](https://repo.x-cmd.io/pipx.svg?lang=zh)
 
 ## 安装
 
 ```sh
 x install pipx
 ```
-
-## 源代码
-
-- **上游仓库**: <https://github.com/pypa/pipx>
-- **官网**: <https://pipx.pypa.io>
-- **许可证**: MIT
-
-## 发布
-
-- **最新版本**: `1.17.2` (2026-09-01)
-- **最近提交**: 2026-09-08
-- **Release 含资产**: 1 个
-- **发布时间**: 2026-09-01T21:50:56Z
-
-## 流行度
-
-- **Star**: 12,957 · **Fork**: 593 · **开放 issue**: 912 · **贡献者**: 260
-
-## 累计统计
-
-- **发布数**: 61 · **已合并 PR**: 894 · **开放 PR**: 1 · **已关闭 issue**: 911 · **开放 issue**: 1 · **提交数**: 1133
-
-## 最近活动
-
-| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
-|---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-11 | 3 | 24 | 1 | 5 | 1 | 25 |
-| 90d | 2026-06-12 | 14 | 155 | 1 | 22 | 1 | 181 |
-| 360d | 2025-09-15 | 24 | 259 | 1 | 55 | 1 | 298 |
 
 ## 代码规模
 
@@ -63,6 +34,62 @@ x install pipx
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 - **Fuzzing** (0/10) — project is not fuzzed
 
+## 源代码
+
+- **上游仓库**: <https://github.com/pypa/pipx>
+- **官网**: <https://pipx.pypa.io>
+- **许可证**: MIT
+
+## 发布
+
+- **最新版本**: `1.17.2` (2026-09-01)
+- **最近提交**: 2026-09-08
+- **Release 含资产**: 1 个
+
+## 流行度
+
+- **Star**: 12,958 · **Fork**: 593 · **开放 issue**: 912 · **贡献者**: 260
+
+## 累计统计
+
+- **发布数**: 61 · **已合并 PR**: 894 · **开放 PR**: 1 · **已关闭 issue**: 911 · **开放 issue**: 1 · **提交数**: 1133
+
+## 最近活动
+
+| 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
+|---|---|---:|---:|---:|---:|---:|---:|
+| 30d | 2026-08-11 | 3 | 24 | 1 | 5 | 1 | 25 |
+| last60d | 2026-07-12 | 12 | 87 | 1 | 16 | 1 | 67 |
+| 90d | 2026-06-12 | 14 | 155 | 1 | 22 | 1 | 181 |
+| last180d | 2026-03-14 | 23 | 237 | 1 | 36 | 1 | 274 |
+| 360d | 2025-09-15 | 24 | 259 | 1 | 55 | 1 | 298 |
+| last720d | 2024-09-20 | 24 | 290 | 1 | 126 | 1 | 321 |
+
+## Release 资产
+
+| 资产 | 大小 | 目标平台 |
+|------|-----:|----------|
+| [pipx.pyz](https://github.com/pypa/pipx/releases/download/1.17.2/pipx.pyz) | 859.9 KiB | `other` |
+
+## 发行版状态
+
+在 [repology.org](https://repology.org/project/pipx) 上共有 **156** 个发行版报告此项目。**15** 个 ✅ 已是最新上游版本，**100** 个 ⚠️ 使用旧版本。
+
+| 发行版 | 版本 | 状态 |
+|--------|------|------|
+| Debian unstable | `1.15.0` | ⚠️ outdated |
+| Debian 14 | `1.15.0` | ⚠️ outdated |
+| Debian 13 | `1.7.1` | ⚠️ outdated |
+| Ubuntu 26.04 LTS | `1.8.0` | ⚠️ outdated |
+| Ubuntu 24.04 LTS | `1.4.3` | ⚠️ outdated |
+| Arch | `1.15.0` | ⚠️ outdated |
+| Homebrew | `1.17.2` | ✅ latest |
+| Fedora rawhide | `1.17.2` | ✅ latest |
+| Nix unstable | `1.16.6` | ⚠️ outdated |
+| Void | `1.15.0` | ⚠️ outdated |
+| Alpine edge | `1.15.0` | ⚠️ outdated |
+| openSUSE Tumbleweed | `1.15.0` | ⚠️ outdated |
+
 ## 改进这些数据
 
 pipx 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索引维护——这是一份由 x-cmd 在安装时读取的精选 YAML 包列表。如果 `pipx` 缺失、过期，或安装行为有问题，欢迎在该 repo 提 issue 或 PR：
@@ -72,4 +99,4 @@ pipx 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260910.yml` · 2026-09-10T05:52:33Z._
+_数据快照: `data/card/260910.yml` · 2026-09-10T20:36:02Z._
