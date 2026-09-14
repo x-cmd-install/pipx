@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,963 · **Forks**: 594 · **Open issues**: 912 · **Contributors**: 260
+- **Stars**: 12,964 · **Forks**: 594 · **Open issues**: 912 · **Contributors**: 260
 
 ## Totals (cumulative)
 
@@ -58,37 +58,18 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 2 | 19 | 2 | 3 | 1 | 25 |
-| last60d | 2026-07-15 | 12 | 46 | 2 | 14 | 1 | 67 |
-| 90d | 2026-06-15 | 14 | 155 | 2 | 21 | 1 | 181 |
-| last180d | 2026-03-17 | 23 | 228 | 2 | 34 | 1 | 274 |
-| 360d | 2025-09-18 | 24 | 259 | 2 | 53 | 1 | 298 |
-| last720d | 2024-09-23 | 24 | 289 | 2 | 126 | 1 | 321 |
+| 30d | 2026-08-15 | 2 | 18 | 2 | 3 | 1 | 22 |
+| last60d | 2026-07-16 | 10 | 44 | 2 | 13 | 1 | 50 |
+| 90d | 2026-06-16 | 14 | 155 | 2 | 21 | 1 | 172 |
+| last180d | 2026-03-18 | 22 | 213 | 2 | 34 | 1 | 220 |
+| 360d | 2025-09-19 | 24 | 259 | 2 | 53 | 1 | 298 |
+| last720d | 2024-09-24 | 24 | 289 | 2 | 126 | 1 | 320 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
 | [pipx.pyz](https://github.com/pypa/pipx/releases/download/1.17.2/pipx.pyz) | 859.9 KiB | `other` |
-
-## Distribution status
-
-Reported by **156** distros on [repology.org](https://repology.org/project/pipx). **15** are ✅ on the latest upstream release, **100** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.15.0` | ⚠️ outdated |
-| Debian 14 | `1.15.0` | ⚠️ outdated |
-| Debian 13 | `1.7.1` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.8.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.4.3` | ⚠️ outdated |
-| Arch | `1.15.0` | ⚠️ outdated |
-| Homebrew | `1.17.2` | ✅ latest |
-| Fedora rawhide | `1.17.2` | ✅ latest |
-| Nix unstable | `1.16.6` | ⚠️ outdated |
-| Void | `1.15.0` | ⚠️ outdated |
-| Alpine edge | `1.15.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.15.0` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -99,4 +80,4 @@ Install metadata for pipx lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260913.yml` · 2026-09-13T05:55:06Z._
+_Snapshot: `data/card/260914.yml` · 2026-09-14T06:10:30Z._

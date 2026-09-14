@@ -48,7 +48,7 @@ x install pipx
 
 ## 流行度
 
-- **Star**: 12,963 · **Fork**: 594 · **开放 issue**: 912 · **贡献者**: 260
+- **Star**: 12,964 · **Fork**: 594 · **开放 issue**: 912 · **贡献者**: 260
 
 ## 累计统计
 
@@ -58,37 +58,18 @@ x install pipx
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-14 | 2 | 19 | 2 | 3 | 1 | 25 |
-| last60d | 2026-07-15 | 12 | 46 | 2 | 14 | 1 | 67 |
-| 90d | 2026-06-15 | 14 | 155 | 2 | 21 | 1 | 181 |
-| last180d | 2026-03-17 | 23 | 228 | 2 | 34 | 1 | 274 |
-| 360d | 2025-09-18 | 24 | 259 | 2 | 53 | 1 | 298 |
-| last720d | 2024-09-23 | 24 | 289 | 2 | 126 | 1 | 321 |
+| 30d | 2026-08-15 | 2 | 18 | 2 | 3 | 1 | 22 |
+| last60d | 2026-07-16 | 10 | 44 | 2 | 13 | 1 | 50 |
+| 90d | 2026-06-16 | 14 | 155 | 2 | 21 | 1 | 172 |
+| last180d | 2026-03-18 | 22 | 213 | 2 | 34 | 1 | 220 |
+| 360d | 2025-09-19 | 24 | 259 | 2 | 53 | 1 | 298 |
+| last720d | 2024-09-24 | 24 | 289 | 2 | 126 | 1 | 320 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
 | [pipx.pyz](https://github.com/pypa/pipx/releases/download/1.17.2/pipx.pyz) | 859.9 KiB | `other` |
-
-## 发行版状态
-
-在 [repology.org](https://repology.org/project/pipx) 上共有 **156** 个发行版报告此项目。**15** 个 ✅ 已是最新上游版本，**100** 个 ⚠️ 使用旧版本。
-
-| 发行版 | 版本 | 状态 |
-|--------|------|------|
-| Debian unstable | `1.15.0` | ⚠️ outdated |
-| Debian 14 | `1.15.0` | ⚠️ outdated |
-| Debian 13 | `1.7.1` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.8.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.4.3` | ⚠️ outdated |
-| Arch | `1.15.0` | ⚠️ outdated |
-| Homebrew | `1.17.2` | ✅ latest |
-| Fedora rawhide | `1.17.2` | ✅ latest |
-| Nix unstable | `1.16.6` | ⚠️ outdated |
-| Void | `1.15.0` | ⚠️ outdated |
-| Alpine edge | `1.15.0` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.15.0` | ⚠️ outdated |
 
 ## 改进这些数据
 
@@ -99,4 +80,4 @@ pipx 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260913.yml` · 2026-09-13T05:55:07Z._
+_数据快照: `data/card/260914.yml` · 2026-09-14T06:10:31Z._
