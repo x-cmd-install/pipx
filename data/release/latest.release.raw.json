@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/pypa/pipx/releases/392483403",
-  "assets_url": "https://api.github.com/repos/pypa/pipx/releases/392483403/assets",
-  "upload_url": "https://uploads.github.com/repos/pypa/pipx/releases/392483403/assets{?name,label}",
-  "html_url": "https://github.com/pypa/pipx/releases/tag/1.17.5",
-  "id": 392483403,
+  "url": "https://api.github.com/repos/pypa/pipx/releases/394194863",
+  "assets_url": "https://api.github.com/repos/pypa/pipx/releases/394194863/assets",
+  "upload_url": "https://uploads.github.com/repos/pypa/pipx/releases/394194863/assets{?name,label}",
+  "html_url": "https://github.com/pypa/pipx/releases/tag/1.17.6",
+  "id": 394194863,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,21 +25,21 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOCQ1fNs4XZNJL",
-  "tag_name": "1.17.5",
+  "node_id": "RE_kwDOCQ1fNs4Xfu-v",
+  "tag_name": "1.17.6",
   "target_commitish": "main",
-  "name": "1.17.5",
+  "name": "1.17.6",
   "draft": false,
   "immutable": false,
   "prerelease": false,
-  "created_at": "2026-09-20T15:32:16Z",
-  "updated_at": "2026-09-20T15:50:20Z",
-  "published_at": "2026-09-20T15:50:02Z",
+  "created_at": "2026-09-22T23:30:21Z",
+  "updated_at": "2026-09-22T23:48:27Z",
+  "published_at": "2026-09-22T23:48:09Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/pypa/pipx/releases/assets/577081095",
-      "id": 577081095,
-      "node_id": "RA_kwDOCQ1fNs4iZY8H",
+      "url": "https://api.github.com/repos/pypa/pipx/releases/assets/582499741",
+      "id": 582499741,
+      "node_id": "RA_kwDOCQ1fNs4iuD2d",
       "name": "pipx.pyz",
       "label": "",
       "uploader": {
@@ -65,28 +65,28 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 888674,
-      "digest": "sha256:32003e77764edc42c62a783f990ad7446e7086566bfacf7904a0674c19db651b",
-      "download_count": 2396,
-      "created_at": "2026-09-20T15:50:20Z",
-      "updated_at": "2026-09-20T15:50:20Z",
-      "browser_download_url": "https://github.com/pypa/pipx/releases/download/1.17.5/pipx.pyz"
+      "size": 888765,
+      "digest": "sha256:63b10dd9a15a57ec4066e29388d1e83565be4b127bd1cf6e3f150fcc39ded8b2",
+      "download_count": 358,
+      "created_at": "2026-09-22T23:48:26Z",
+      "updated_at": "2026-09-22T23:48:27Z",
+      "browser_download_url": "https://github.com/pypa/pipx/releases/download/1.17.6/pipx.pyz"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/pypa/pipx/tarball/1.17.5",
-  "zipball_url": "https://api.github.com/repos/pypa/pipx/zipball/1.17.5",
-  "body": "<!-- Release notes generated using configuration in .github/release.yml at 1.17.5 -->\n\n## What's Changed\n* fix(reinstall): propagate returned failures in reinstall-all by @jakezwang in https://github.com/pypa/pipx/pull/2043\n\n## New Contributors\n* @jakezwang made their first contribution in https://github.com/pypa/pipx/pull/2043\n\n**Full Changelog**: https://github.com/pypa/pipx/compare/1.17.4...1.17.5",
+  "tarball_url": "https://api.github.com/repos/pypa/pipx/tarball/1.17.6",
+  "zipball_url": "https://api.github.com/repos/pypa/pipx/zipball/1.17.6",
+  "body": "<!-- Release notes generated using configuration in .github/release.yml at 1.17.6 -->\n\n## What's Changed\n* docs: fix argument order in the combined inject example by @agammann in https://github.com/pypa/pipx/pull/2044\n* docs: fix Git extras install example for current pip by @saitakarcesme in https://github.com/pypa/pipx/pull/2047\n* ci(pre-release): drop unused contents:write permission by @gaborbernat in https://github.com/pypa/pipx/pull/2050\n* 🐛 fix(manifest): make locked tools install on sync by @gaborbernat in https://github.com/pypa/pipx/pull/2052\n\n## New Contributors\n* @agammann made their first contribution in https://github.com/pypa/pipx/pull/2044\n* @saitakarcesme made their first contribution in https://github.com/pypa/pipx/pull/2047\n\n**Full Changelog**: https://github.com/pypa/pipx/compare/1.17.5...1.17.6",
   "reactions": {
-    "url": "https://api.github.com/repos/pypa/pipx/releases/392483403/reactions",
-    "total_count": 2,
+    "url": "https://api.github.com/repos/pypa/pipx/releases/394194863/reactions",
+    "total_count": 1,
     "+1": 0,
     "-1": 0,
     "laugh": 0,
-    "hooray": 1,
+    "hooray": 0,
     "confused": 0,
     "heart": 0,
-    "rocket": 1,
-    "eyes": 0
+    "rocket": 0,
+    "eyes": 1
   },
-  "mentions_count": 1
+  "mentions_count": 3
 }
