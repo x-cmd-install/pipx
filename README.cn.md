@@ -4,7 +4,7 @@
 
 Install and Run Python Applications in Isolated Environments
 
-[![x-cmd/install — pipx Code Quality Monitoring Repo Card](https://repo.x-cmd.io/pipx.svg?lang=zh)](https://x-cmd.com/install/pipx)
+[![x-cmd/install — pipx Code Quality Monitoring Repo Card](https://x-cmd.com/repo-card/pipx.svg?lang=zh)](https://x-cmd.com/install/pipx)
 
 ## 安装
 
@@ -14,12 +14,12 @@ x install pipx
 
 ## 代码洞察
 
-合计: **31,212** 行代码（覆盖前 5 种语言、共 **174** 个文件）。
+合计: **31,234** 行代码（覆盖前 5 种语言、共 **174** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Python | 26,359 | 579 | 5,112 | 129 |
-| ReStructuredText | 4,163 | 0 | 1,547 | 39 |
+| Python | 26,371 | 583 | 5,114 | 129 |
+| ReStructuredText | 4,173 | 0 | 1,554 | 39 |
 | Toml | 338 | 9 | 19 | 3 |
 | Svg | 246 | 0 | 0 | 2 |
 | Json | 65 | 0 | 0 | 1 |
@@ -42,34 +42,34 @@ x install pipx
 
 ## 发布
 
-- **最新版本**: `1.17.5` (2026-09-20)
+- **最新版本**: `1.17.6` (2026-09-22)
 - **最近提交**: 2026-09-22
 - **Release 含资产**: 1 个
 
 ## 流行度
 
-- **Star**: 12,973 · **Fork**: 601 · **开放 issue**: 915 · **贡献者**: 268
+- **Star**: 12,973 · **Fork**: 601 · **开放 issue**: 916 · **贡献者**: 268
 
 ## 累计统计
 
-- **发布数**: 64 · **已合并 PR**: 905 · **开放 PR**: 0 · **已关闭 issue**: 915 · **开放 issue**: 0 · **提交数**: 1147
+- **发布数**: 65 · **已合并 PR**: 908 · **开放 PR**: 0 · **已关闭 issue**: 916 · **开放 issue**: 0 · **提交数**: 1151
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-23 | 5 | 25 | 0 | 7 | 0 | 30 |
-| last60d | 2026-07-24 | 10 | 50 | 0 | 15 | 0 | 60 |
-| 90d | 2026-06-24 | 16 | 163 | 0 | 25 | 0 | 181 |
-| last180d | 2026-03-26 | 22 | 205 | 0 | 37 | 0 | 233 |
-| 360d | 2025-09-27 | 27 | 270 | 0 | 57 | 0 | 307 |
-| last720d | 2024-10-02 | 27 | 299 | 0 | 127 | 0 | 332 |
+| 30d | 2026-08-24 | 6 | 27 | 0 | 8 | 0 | 34 |
+| last60d | 2026-07-25 | 11 | 53 | 0 | 15 | 0 | 64 |
+| 90d | 2026-06-25 | 16 | 165 | 0 | 26 | 0 | 185 |
+| last180d | 2026-03-27 | 23 | 208 | 0 | 38 | 0 | 237 |
+| 360d | 2025-09-28 | 28 | 273 | 0 | 58 | 0 | 311 |
+| last720d | 2024-10-03 | 28 | 302 | 0 | 128 | 0 | 336 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [pipx.pyz](https://github.com/pypa/pipx/releases/download/1.17.5/pipx.pyz) | 867.8 KiB | `other` |
+| [pipx.pyz](https://github.com/pypa/pipx/releases/download/1.17.6/pipx.pyz) | 867.9 KiB | `other` |
 
 ## 改进这些数据
 
@@ -80,4 +80,4 @@ pipx 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/260922.yml` · 2026-09-22T06:11:22Z._
+_数据快照: `data/card/260923.yml` · 2026-09-23T06:13:07Z._
