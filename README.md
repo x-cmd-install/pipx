@@ -30,9 +30,9 @@ Overall score: **7.1 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (4/10) — Found 9/21 approved changesets -- score normalized to 4
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 - **Fuzzing** (0/10) — project is not fuzzed
+- **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protect…
 
 ## Source
 
@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,973 · **Forks**: 601 · **Open issues**: 916 · **Contributors**: 268
+- **Stars**: 12,975 · **Forks**: 601 · **Open issues**: 916 · **Contributors**: 267
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-24 | 6 | 27 | 0 | 8 | 0 | 34 |
-| last60d | 2026-07-25 | 11 | 53 | 0 | 15 | 0 | 64 |
-| 90d | 2026-06-25 | 16 | 165 | 0 | 26 | 0 | 185 |
-| last180d | 2026-03-27 | 23 | 208 | 0 | 38 | 0 | 237 |
-| 360d | 2025-09-28 | 28 | 273 | 0 | 58 | 0 | 311 |
-| last720d | 2024-10-03 | 28 | 302 | 0 | 128 | 0 | 336 |
+| 30d | 2026-08-25 | 6 | 27 | 0 | 8 | 0 | 34 |
+| last60d | 2026-07-26 | 11 | 52 | 0 | 15 | 0 | 64 |
+| 90d | 2026-06-26 | 16 | 164 | 0 | 25 | 0 | 185 |
+| last180d | 2026-03-28 | 23 | 208 | 0 | 38 | 0 | 237 |
+| 360d | 2025-09-29 | 28 | 271 | 0 | 58 | 0 | 311 |
+| last720d | 2024-10-04 | 28 | 301 | 0 | 128 | 0 | 336 |
 
 ## Release assets
 
@@ -80,4 +80,4 @@ Install metadata for pipx lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260923.yml` · 2026-09-23T06:13:06Z._
+_Snapshot: `data/card/260924.yml` · 2026-09-24T05:34:28Z._
