@@ -32,7 +32,7 @@ Lowest-scoring checks:
 
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 - **Fuzzing** (0/10) — project is not fuzzed
-- **Branch-Protection** (-1/10) — internal error: error during branchesHandler.setup: internal error: some github tokens can't read classic branch protect…
+- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 
 ## Source
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,976 · **Forks**: 604 · **Open issues**: 917 · **Contributors**: 269
+- **Stars**: 12,976 · **Forks**: 606 · **Open issues**: 917 · **Contributors**: 269
 
 ## Totals (cumulative)
 
-- **Releases**: 67 · **Merged PRs**: 912 · **Open PRs**: 0 · **Closed issues**: 917 · **Open issues**: 0 · **Commits**: 1157
+- **Releases**: 67 · **Merged PRs**: 912 · **Open PRs**: 1 · **Closed issues**: 917 · **Open issues**: 0 · **Commits**: 1157
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-08-31 | 7 | 22 | 0 | 6 | 0 | 27 |
-| last60d | 2026-08-01 | 10 | 46 | 0 | 12 | 0 | 55 |
-| 90d | 2026-07-02 | 18 | 163 | 0 | 23 | 0 | 184 |
-| last180d | 2026-04-03 | 24 | 211 | 0 | 37 | 0 | 241 |
-| 360d | 2025-10-05 | 29 | 273 | 0 | 58 | 0 | 314 |
-| last720d | 2024-10-10 | 30 | 304 | 0 | 127 | 0 | 341 |
+| 30d | 2026-09-01 | 7 | 21 | 1 | 6 | 0 | 27 |
+| last60d | 2026-08-02 | 10 | 46 | 1 | 12 | 0 | 55 |
+| 90d | 2026-07-03 | 18 | 163 | 1 | 23 | 0 | 184 |
+| last180d | 2026-04-04 | 24 | 211 | 1 | 37 | 0 | 241 |
+| 360d | 2025-10-06 | 29 | 273 | 1 | 57 | 0 | 314 |
+| last720d | 2024-10-11 | 30 | 304 | 1 | 126 | 0 | 340 |
 
 ## Release assets
 
@@ -80,4 +80,4 @@ Install metadata for pipx lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/260930.yml` · 2026-09-30T06:31:17Z._
+_Snapshot: `data/card/261001.yml` · 2026-10-01T06:45:18Z._
