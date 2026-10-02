@@ -14,12 +14,12 @@ x install pipx
 
 ## Code insight
 
-Total: **31,317** lines of code across **174** files in the top 5 languages.
+Total: **31,345** lines of code across **174** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 26,443 | 587 | 5,124 | 129 |
-| ReStructuredText | 4,184 | 0 | 1,562 | 39 |
+| Python | 26,465 | 589 | 5,128 | 129 |
+| ReStructuredText | 4,190 | 0 | 1,566 | 39 |
 | Toml | 338 | 9 | 19 | 3 |
 | Svg | 246 | 0 | 0 | 2 |
 | Json | 65 | 0 | 0 | 1 |
@@ -42,34 +42,34 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `1.17.8` (2026-09-29)
-- **Last commit**: 2026-09-29
+- **Latest**: `1.17.9` (2026-10-01)
+- **Last commit**: 2026-10-01
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 12,976 · **Forks**: 606 · **Open issues**: 917 · **Contributors**: 269
+- **Stars**: 12,975 · **Forks**: 607 · **Open issues**: 917 · **Contributors**: 271
 
 ## Totals (cumulative)
 
-- **Releases**: 67 · **Merged PRs**: 912 · **Open PRs**: 1 · **Closed issues**: 917 · **Open issues**: 0 · **Commits**: 1157
+- **Releases**: 68 · **Merged PRs**: 913 · **Open PRs**: 0 · **Closed issues**: 917 · **Open issues**: 0 · **Commits**: 1159
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-01 | 7 | 21 | 1 | 6 | 0 | 27 |
-| last60d | 2026-08-02 | 10 | 46 | 1 | 12 | 0 | 55 |
-| 90d | 2026-07-03 | 18 | 163 | 1 | 23 | 0 | 184 |
-| last180d | 2026-04-04 | 24 | 211 | 1 | 37 | 0 | 241 |
-| 360d | 2025-10-06 | 29 | 273 | 1 | 57 | 0 | 314 |
-| last720d | 2024-10-11 | 30 | 304 | 1 | 126 | 0 | 340 |
+| 30d | 2026-09-02 | 7 | 21 | 0 | 6 | 0 | 29 |
+| last60d | 2026-08-03 | 11 | 46 | 0 | 11 | 0 | 57 |
+| 90d | 2026-07-04 | 19 | 164 | 0 | 23 | 0 | 186 |
+| last180d | 2026-04-05 | 25 | 212 | 0 | 37 | 0 | 243 |
+| 360d | 2025-10-07 | 30 | 274 | 0 | 57 | 0 | 316 |
+| last720d | 2024-10-12 | 31 | 305 | 0 | 125 | 0 | 342 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [pipx.pyz](https://github.com/pypa/pipx/releases/download/1.17.8/pipx.pyz) | 878.2 KiB | `other` |
+| [pipx.pyz](https://github.com/pypa/pipx/releases/download/1.17.9/pipx.pyz) | 879.7 KiB | `other` |
 
 ## Improve this data
 
@@ -80,4 +80,4 @@ Install metadata for pipx lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261001.yml` · 2026-10-01T06:45:18Z._
+_Snapshot: `data/card/261002.yml` · 2026-10-02T06:33:29Z._
