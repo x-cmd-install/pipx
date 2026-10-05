@@ -67,7 +67,7 @@
       "state": "uploaded",
       "size": 902317,
       "digest": "sha256:ea1a87594acaddb6ed3956d587c07bcd28122c98943018d5469a225bcbc9d554",
-      "download_count": 365,
+      "download_count": 1955,
       "created_at": "2026-10-03T23:59:17Z",
       "updated_at": "2026-10-03T23:59:18Z",
       "browser_download_url": "https://github.com/pypa/pipx/releases/download/1.17.11/pipx.pyz"
