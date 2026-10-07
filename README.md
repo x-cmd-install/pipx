@@ -26,13 +26,13 @@ Total: **31,493** lines of code across **174** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **7.1 / 10**
+Overall score: **7 / 10**
 
 Lowest-scoring checks:
 
+- **Code-Review** (4/10) — Found 11/24 approved changesets -- score normalized to 4
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 - **Fuzzing** (0/10) — project is not fuzzed
-- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 
 ## Source
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,977 · **Forks**: 611 · **Open issues**: 920 · **Contributors**: 274
+- **Stars**: 12,976 · **Forks**: 612 · **Open issues**: 922 · **Contributors**: 274
 
 ## Totals (cumulative)
 
-- **Releases**: 70 · **Merged PRs**: 919 · **Open PRs**: 0 · **Closed issues**: 920 · **Open issues**: 0 · **Commits**: 1167
+- **Releases**: 70 · **Merged PRs**: 919 · **Open PRs**: 2 · **Closed issues**: 920 · **Open issues**: 2 · **Commits**: 1167
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-06 | 9 | 27 | 0 | 9 | 0 | 34 |
-| last60d | 2026-08-07 | 12 | 51 | 0 | 14 | 0 | 64 |
-| 90d | 2026-07-08 | 21 | 170 | 0 | 26 | 0 | 137 |
-| last180d | 2026-04-09 | 27 | 216 | 0 | 40 | 0 | 251 |
-| 360d | 2025-10-11 | 32 | 280 | 0 | 60 | 0 | 323 |
-| last720d | 2024-10-16 | 33 | 310 | 0 | 128 | 0 | 350 |
+| 30d | 2026-09-07 | 9 | 26 | 2 | 8 | 2 | 34 |
+| last60d | 2026-08-08 | 12 | 51 | 2 | 14 | 2 | 64 |
+| 90d | 2026-07-09 | 21 | 170 | 2 | 26 | 2 | 137 |
+| last180d | 2026-04-10 | 27 | 216 | 2 | 40 | 2 | 251 |
+| 360d | 2025-10-12 | 32 | 280 | 2 | 60 | 2 | 323 |
+| last720d | 2024-10-17 | 33 | 310 | 2 | 128 | 2 | 350 |
 
 ## Release assets
 
@@ -80,4 +80,4 @@ Install metadata for pipx lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261006.yml` · 2026-10-06T07:29:12Z._
+_Snapshot: `data/card/261007.yml` · 2026-10-07T06:54:19Z._
