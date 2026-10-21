@@ -26,11 +26,11 @@ Total: **36,482** lines of code across **176** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **6.8 / 10**
+Overall score: **6.6 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (0/10) — Found 1/29 approved changesets -- score normalized to 0
+- **Code-Review** (1/10) — Found 3/29 approved changesets -- score normalized to 1
 - **CII-Best-Practices** (0/10) — no effort to earn an OpenSSF best practices badge detected
 - **Fuzzing** (0/10) — project is not fuzzed
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.18.4` (2026-10-18)
-- **Last commit**: 2026-10-18
+- **Last commit**: 2026-10-21
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 12,977 · **Forks**: 716 · **Open issues**: 932 · **Contributors**: 284
+- **Stars**: 12,980 · **Forks**: 639 · **Open issues**: 933 · **Contributors**: 284
 
 ## Totals (cumulative)
 
-- **Releases**: 97 · **Merged PRs**: 1001 · **Open PRs**: 1 · **Closed issues**: 932 · **Open issues**: 0 · **Commits**: 1258
+- **Releases**: 97 · **Merged PRs**: 1002 · **Open PRs**: 5 · **Closed issues**: 932 · **Open issues**: 1 · **Commits**: 1259
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-20 | 34 | 98 | 1 | 18 | 0 | 106 |
-| last60d | 2026-08-21 | 38 | 123 | 1 | 24 | 0 | 140 |
-| 90d | 2026-07-22 | 43 | 148 | 1 | 33 | 0 | 171 |
-| last180d | 2026-04-23 | 54 | 289 | 1 | 50 | 0 | 331 |
-| 360d | 2025-10-25 | 59 | 362 | 1 | 72 | 0 | 413 |
-| last720d | 2024-10-30 | 60 | 392 | 1 | 138 | 0 | 441 |
+| 30d | 2026-09-21 | 33 | 97 | 5 | 17 | 1 | 107 |
+| last60d | 2026-08-22 | 38 | 123 | 5 | 24 | 1 | 141 |
+| 90d | 2026-07-23 | 43 | 148 | 5 | 33 | 1 | 172 |
+| last180d | 2026-04-24 | 54 | 290 | 5 | 50 | 1 | 332 |
+| 360d | 2025-10-26 | 59 | 363 | 5 | 72 | 1 | 414 |
+| last720d | 2024-10-31 | 60 | 393 | 5 | 138 | 1 | 442 |
 
 ## Release assets
 
@@ -80,4 +80,4 @@ Install metadata for pipx lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261020.yml` · 2026-10-20T05:42:54Z._
+_Snapshot: `data/card/261021.yml` · 2026-10-21T05:35:33Z._
