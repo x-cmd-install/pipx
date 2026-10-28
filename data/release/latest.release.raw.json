@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/pypa/pipx/releases/416278796",
-  "assets_url": "https://api.github.com/repos/pypa/pipx/releases/416278796/assets",
-  "upload_url": "https://uploads.github.com/repos/pypa/pipx/releases/416278796/assets{?name,label}",
-  "html_url": "https://github.com/pypa/pipx/releases/tag/1.18.4",
-  "id": 416278796,
+  "url": "https://api.github.com/repos/pypa/pipx/releases/426328845",
+  "assets_url": "https://api.github.com/repos/pypa/pipx/releases/426328845/assets",
+  "upload_url": "https://uploads.github.com/repos/pypa/pipx/releases/426328845/assets{?name,label}",
+  "html_url": "https://github.com/pypa/pipx/releases/tag/1.18.7",
+  "id": 426328845,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,21 +25,21 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOCQ1fNs4Yz-kM",
-  "tag_name": "1.18.4",
-  "target_commitish": "main",
-  "name": "1.18.4",
+  "node_id": "RE_kwDOCQ1fNs4ZaUMN",
+  "tag_name": "1.18.7",
+  "target_commitish": "1d7102faf7f28c7bc46f4ffda56c015d186117dd",
+  "name": "1.18.7",
   "draft": false,
-  "immutable": false,
+  "immutable": true,
   "prerelease": false,
-  "created_at": "2026-10-18T06:27:47Z",
-  "updated_at": "2026-10-18T18:59:37Z",
-  "published_at": "2026-10-18T06:38:50Z",
+  "created_at": "2026-10-28T06:28:40Z",
+  "updated_at": "2026-10-28T06:30:15Z",
+  "published_at": "2026-10-28T06:30:15Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/pypa/pipx/releases/assets/652706332",
-      "id": 652706332,
-      "node_id": "RA_kwDOCQ1fNs4m54Ic",
+      "url": "https://api.github.com/repos/pypa/pipx/releases/assets/684070612",
+      "id": 684070612,
+      "node_id": "RA_kwDOCQ1fNs4oxhbU",
       "name": "pipx.pyz",
       "label": "",
       "uploader": {
@@ -65,27 +65,16 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 727151,
-      "digest": "sha256:9273476832b2672f0799a84f69c72fcd5008e7a4dab3723a48fd0e25c3ddd19f",
-      "download_count": 17727,
-      "created_at": "2026-10-18T06:39:10Z",
-      "updated_at": "2026-10-18T06:39:11Z",
-      "browser_download_url": "https://github.com/pypa/pipx/releases/download/1.18.4/pipx.pyz"
+      "size": 728812,
+      "digest": "sha256:bc807df747117fa7f6a5e0c0dbbbd5c37146de92710dfc2dfa1105911621f46f",
+      "download_count": 0,
+      "created_at": "2026-10-28T06:30:14Z",
+      "updated_at": "2026-10-28T06:30:14Z",
+      "browser_download_url": "https://github.com/pypa/pipx/releases/download/1.18.7/pipx.pyz"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/pypa/pipx/tarball/1.18.4",
-  "zipball_url": "https://api.github.com/repos/pypa/pipx/zipball/1.18.4",
-  "body": "Bugfixes\n\n- `pipx reset` now cancels instead of crashing when the confirmation prompt reads EOF (Ctrl-D on POSIX, Ctrl-Z then Enter\n  on Windows). (#2160)\n\n[PyPI release](https://pypi.org/project/pipx/1.18.4/)\n\n**Full Changelog**: https://github.com/pypa/pipx/compare/1.18.3...1.18.4\n",
-  "reactions": {
-    "url": "https://api.github.com/repos/pypa/pipx/releases/416278796/reactions",
-    "total_count": 1,
-    "+1": 0,
-    "-1": 0,
-    "laugh": 0,
-    "hooray": 1,
-    "confused": 0,
-    "heart": 0,
-    "rocket": 0,
-    "eyes": 0
-  }
+  "tarball_url": "https://api.github.com/repos/pypa/pipx/tarball/1.18.7",
+  "zipball_url": "https://api.github.com/repos/pypa/pipx/zipball/1.18.7",
+  "body": "<a name=\"release-1-18-7-security\"></a>\n\n### Security\n\n- Require pip 26.2.2 or later in the shared libraries, and replace an older shared pip on the next pipx command instead of waiting for the 30-day refresh. Older pip releases bundle a certifi that still trusts the compromised eMudhra/emSign root CA ([#2197](https://github.com/pypa/pipx/pull/2197)) by @gaborbernat.\n\n[PyPI release](https://pypi.org/project/pipx/1.18.7/)\n\n[Full Changelog](https://github.com/pypa/pipx/compare/1.18.6...1.18.7)\n",
+  "mentions_count": 1
 }
