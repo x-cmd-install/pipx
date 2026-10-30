@@ -14,13 +14,13 @@ x install pipx
 
 ## Code insight
 
-Total: **45,296** lines of code across **179** files in the top 5 languages.
+Total: **44,296** lines of code across **190** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 35,907 | 983 | 7,285 | 129 |
-| ReStructuredText | 5,635 | 0 | 2,127 | 39 |
-| Toml | 3,397 | 17 | 680 | 8 |
+| Python | 34,827 | 912 | 7,448 | 140 |
+| ReStructuredText | 5,714 | 0 | 2,129 | 39 |
+| Toml | 3,398 | 17 | 680 | 8 |
 | Svg | 246 | 0 | 0 | 2 |
 | Json | 65 | 0 | 0 | 1 |
 
@@ -42,38 +42,38 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `1.18.9` (2026-10-29)
+- **Latest**: `1.18.10` (2026-10-29)
 - **Last commit**: 2026-10-29
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 12,980 · **Forks**: 632 · **Open issues**: 1,000 · **Contributors**: 292
+- **Stars**: 12,981 · **Forks**: 632 · **Open issues**: 1,002 · **Contributors**: 292
 
 ## Totals (cumulative)
 
-- **Releases**: 102 · **Merged PRs**: 1133 · **Open PRs**: 1 · **Closed issues**: 1000 · **Open issues**: 0 · **Commits**: 1395
+- **Releases**: 103 · **Merged PRs**: 1156 · **Open PRs**: 0 · **Closed issues**: 1002 · **Open issues**: 0 · **Commits**: 1419
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-09-29 | 34 | 219 | 1 | 83 | 0 | 236 |
-| last60d | 2026-08-30 | 41 | 243 | 1 | 89 | 0 | 266 |
-| 90d | 2026-07-31 | 43 | 265 | 1 | 95 | 0 | 295 |
-| last180d | 2026-05-02 | 57 | 415 | 1 | 116 | 0 | 466 |
-| 360d | 2025-11-03 | 62 | 492 | 1 | 138 | 0 | 550 |
-| last720d | 2024-11-08 | 63 | 520 | 1 | 201 | 0 | 577 |
+| 30d | 2026-09-30 | 33 | 242 | 0 | 85 | 0 | 260 |
+| last60d | 2026-08-31 | 40 | 264 | 0 | 91 | 0 | 290 |
+| 90d | 2026-08-01 | 43 | 288 | 0 | 97 | 0 | 319 |
+| last180d | 2026-05-03 | 57 | 438 | 0 | 117 | 0 | 490 |
+| 360d | 2025-11-04 | 62 | 514 | 0 | 140 | 0 | 574 |
+| last720d | 2024-11-09 | 63 | 543 | 0 | 202 | 0 | 601 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [pipx.pyz](https://github.com/pypa/pipx/releases/download/1.18.9/pipx.pyz) | 729.9 KiB | `other` |
+| [pipx.pyz](https://github.com/pypa/pipx/releases/download/1.18.10/pipx.pyz) | 727.7 KiB | `other` |
 
 ## Distribution status
 
-Reported by **169** distros on [repology.org](https://repology.org/project/pipx). **3** are ✅ on the latest upstream release, **109** are ⚠️ on an older version.
+Reported by **170** distros on [repology.org](https://repology.org/project/pipx). **3** are ✅ on the latest upstream release, **110** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -83,11 +83,11 @@ Reported by **169** distros on [repology.org](https://repology.org/project/pipx)
 | Ubuntu 26.04 LTS | `1.8.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.4.3` | ⚠️ outdated |
 | Arch | `1.18.4` | ⚠️ outdated |
-| Homebrew | `HEAD` | 🔄 rolling |
-| Fedora rawhide | `1.18.5` | ⚠️ outdated |
+| Homebrew | `1.18.8` | ⚠️ outdated |
+| Fedora rawhide | `1.18.7` | ⚠️ outdated |
 | Nix unstable | `1.16.6` | ⚠️ outdated |
 | Void | `1.17.2` | ⚠️ outdated |
-| Alpine edge | `1.15.0` | ⚠️ outdated |
+| Alpine edge | `1.18.4` | ⚠️ outdated |
 | openSUSE Tumbleweed | `1.15.0` | ⚠️ outdated |
 
 ## Improve this data
@@ -99,4 +99,4 @@ Install metadata for pipx lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261029.yml` · 2026-10-29T06:50:14Z._
+_Snapshot: `data/card/261030.yml` · 2026-10-30T06:41:22Z._
