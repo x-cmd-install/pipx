@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/pypa/pipx/releases/427535911",
-  "assets_url": "https://api.github.com/repos/pypa/pipx/releases/427535911/assets",
-  "upload_url": "https://uploads.github.com/repos/pypa/pipx/releases/427535911/assets{?name,label}",
-  "html_url": "https://github.com/pypa/pipx/releases/tag/1.18.9",
-  "id": 427535911,
+  "url": "https://api.github.com/repos/pypa/pipx/releases/428446847",
+  "assets_url": "https://api.github.com/repos/pypa/pipx/releases/428446847/assets",
+  "upload_url": "https://uploads.github.com/repos/pypa/pipx/releases/428446847/assets{?name,label}",
+  "html_url": "https://github.com/pypa/pipx/releases/tag/1.18.10",
+  "id": 428446847,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,21 +25,21 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOCQ1fNs4Ze64n",
-  "tag_name": "1.18.9",
-  "target_commitish": "8ab8da96cc9b45cd92bfdf472fed550cb73ab88a",
-  "name": "1.18.9",
+  "node_id": "RE_kwDOCQ1fNs4ZiZR_",
+  "tag_name": "1.18.10",
+  "target_commitish": "ee53654f289d89e52353e4afe2a04d7ef3a8a5c3",
+  "name": "1.18.10",
   "draft": false,
   "immutable": true,
   "prerelease": false,
-  "created_at": "2026-10-29T06:35:28Z",
-  "updated_at": "2026-10-29T06:37:22Z",
-  "published_at": "2026-10-29T06:37:22Z",
+  "created_at": "2026-10-29T22:09:57Z",
+  "updated_at": "2026-10-29T22:11:40Z",
+  "published_at": "2026-10-29T22:11:40Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/pypa/pipx/releases/assets/687615219",
-      "id": 687615219,
-      "node_id": "RA_kwDOCQ1fNs4o_Czz",
+      "url": "https://api.github.com/repos/pypa/pipx/releases/assets/690064499",
+      "id": 690064499,
+      "node_id": "RA_kwDOCQ1fNs4pIYxz",
       "name": "pipx.pyz",
       "label": "",
       "uploader": {
@@ -65,16 +65,16 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 747407,
-      "digest": "sha256:93e83447842bc7e41f5bafd8d2fecae10d977d922058e0204929d827b976566a",
-      "download_count": 0,
-      "created_at": "2026-10-29T06:37:21Z",
-      "updated_at": "2026-10-29T06:37:21Z",
-      "browser_download_url": "https://github.com/pypa/pipx/releases/download/1.18.9/pipx.pyz"
+      "size": 745170,
+      "digest": "sha256:083b2b87b04d850fe802d4e4232381303740fc6c30a5a6b338c5da2ce954805d",
+      "download_count": 458,
+      "created_at": "2026-10-29T22:11:39Z",
+      "updated_at": "2026-10-29T22:11:39Z",
+      "browser_download_url": "https://github.com/pypa/pipx/releases/download/1.18.10/pipx.pyz"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/pypa/pipx/tarball/1.18.9",
-  "zipball_url": "https://api.github.com/repos/pypa/pipx/zipball/1.18.9",
-  "body": "<a name=\"release-1-18-9-fixed\"></a>\n\n### Bug fixes\n\n- Extend the 1.18.8 handling of recorded pip arguments to uv's path options and to `--group`. pipx no longer records `--group`, which names a `pyproject.toml` to read packages from, like `-r`. On POSIX, a recorded `--config-file`, `--project`, `--directory`, `--overrides`/`--override` or `--excludes`/`--exclude` that points at a path another account could change stops `pipx upgrade`, `pipx reinstall` and the other replaying commands with the same error as `--find-links`. `pipx list --outdated` runs the same check and reports such an environment as failed instead of querying the recorded location. `pipx runpip` reads its install arguments with the same parser, so it records an install written as `-qe ./project` or `-e./project` as editable ([#2363](https://github.com/pypa/pipx/pull/2363)) by @gaborbernat.\n- When a rebuild fails during a parallel `pipx reinstall-all`, the restored environment gets back the shared app, man page or completion links another environment took while the rebuild had it in the trash, unless something outside this run has replaced them since ([#2371](https://github.com/pypa/pipx/pull/2371)) by @gaborbernat.\n- `pipx run` no longer reuses a cached environment after a change to a variable outside `PIP_*` and `UV_*` that decides which config file pip or uv reads, which proxy or index answers, which certificate is trusted or which credentials are sent, such as `XDG_CONFIG_HOME`, `SSL_CERT_FILE`, `HTTPS_PROXY` or `NETRC`. The values only feed the cache key's hash, so secrets in them stay out of cache paths and logs ([#2364](https://github.com/pypa/pipx/pull/2364)) by @gaborbernat.\n\n[PyPI release](https://pypi.org/project/pipx/1.18.9/)\n\n[Full Changelog](https://github.com/pypa/pipx/compare/1.18.8...1.18.9)\n",
+  "tarball_url": "https://api.github.com/repos/pypa/pipx/tarball/1.18.10",
+  "zipball_url": "https://api.github.com/repos/pypa/pipx/zipball/1.18.10",
+  "body": "<a name=\"release-1-18-10-changes\"></a>\n\n### Changes\n\n- Error, warning, and help messages now state what pipx found and what to run next, without hedges such as \"already seems to be installed\" or \"Perhaps\". Update scripts that match the old message text ([#2376](https://github.com/pypa/pipx/pull/2376)) by @gaborbernat.\n\n<a name=\"release-1-18-10-fixed\"></a>\n\n### Bug fixes\n\n- A pipx that changed its own environment, through `pipx upgrade pipx` or `pipx reinstall pipx` for example, no longer crashes with an `ImportError` when another pipx command empties the trash while it is still running, such as during the rest of `pipx upgrade-all`. The copy of its environment it imports from now stays in the trash until the process exits ([#2397](https://github.com/pypa/pipx/pull/2397)) by @gaborbernat.\n- Interrupting a parallel `pipx reinstall-all` with Ctrl-C now gives a restored environment back the shared app, man page or completion links another environment took while the rebuild had it in the trash, as a failed rebuild already did ([#2386](https://github.com/pypa/pipx/pull/2386)) by @gaborbernat.\n- On Windows under the uv backend, `pipx run --refresh` or `--no-cache` of a local script no longer deletes the cached environment while another run of the same script is still executing in it, and neither does the expiry sweep. Such a run builds a throwaway environment for itself instead, and after `--refresh` the next run to find the cached one idle rebuilds it ([#2387](https://github.com/pypa/pipx/pull/2387)) by @gaborbernat.\n- On Windows under the uv backend, `pipx upgrade pipx` on a pipx that manages itself no longer fails with `Access is denied` and rolls back. uv deletes the files it replaces, which Windows refuses for the running `pipx.exe`, so pipx now moves that launcher to its trash first, where the next pipx command deletes it ([#2396](https://github.com/pypa/pipx/pull/2396)) by @gaborbernat.\n- Where pipx copies launchers instead of linking them, as on Windows without symlink rights, `pipx reinstall` and `pipx install --force` no longer warn `Overwriting file` for the package's own launcher. Windows `.exe` launchers embed their build time, so a rebuilt one never matched its old copy byte for byte and every reinstall warned. pipx now recognises its own copy by the interpreter it names and replaces it without a warning; a file another venv or the user put there still gets one ([#2394](https://github.com/pypa/pipx/pull/2394)) by @gaborbernat.\n- With the uv backend and `UV_LINK_MODE=symlink`, `pipx uninstall` now removes the man page and shell completion links it exposed, and `pipx list` no longer reports those man pages as missing. uv makes the environment's own copies symlinks into its cache, and pipx followed them there instead of stopping at the environment ([#2380](https://github.com/pypa/pipx/pull/2380)) by @gaborbernat.\n- `--fetch-python` and `pipx interpreter upgrade` now download and unpack the standalone Python build next to the interpreter directory instead of in the system temp dir, so a tmpfs `/tmp` or a `/tmp` on another btrfs subvolume no longer forces a full copy of the build into the pipx home or splits its hard links into separate files ([#2403](https://github.com/pypa/pipx/pull/2403)) by @gaborbernat.\n- `pipx inject pipx` without `--include-apps` and `pipx runpip pipx` on a pipx that manages itself no longer mix old and new pipx code when they change the pipx package. Like `pipx upgrade pipx`, they now load late imports from a copy of the environment, which the next pipx command deletes from the trash ([#2393](https://github.com/pypa/pipx/pull/2393)) by @gaborbernat.\n- `pipx list --json` no longer exports the interpreter a self-managed pipx recorded when that path no longer leads to the interpreter its environment runs on, such as a removed bootstrap environment's `python3`. `pipx install-all` then builds that environment on the default interpreter instead of whatever appears at the old path ([#2389](https://github.com/pypa/pipx/pull/2389)) by @gaborbernat.\n- `pipx reinstall pipx` on a pipx that manages itself no longer crashes with an `ImportError` when it installs a different pipx version. Modules the running pipx imported late came from the version it was installing, so old and new code mixed. It now loads them from its own moved environment, which the next pipx command deletes from the trash ([#2377](https://github.com/pypa/pipx/pull/2377)) by @gaborbernat.\n- `pipx upgrade pipx`, `pipx upgrade-all` and `pipx install --force pipx` on a pipx that manages itself no longer crash with an `ImportError` when they install a different pipx version. The running pipx now loads its late imports from a copy of its environment, which the next pipx command deletes from the trash ([#2388](https://github.com/pypa/pipx/pull/2388)) by @gaborbernat.\n- pipx now recognises the app copies it made when the environment's interpreter path is too long for a shebang line or contains a space. pip and uv start such launchers with a `#!/bin/sh` line that hands over to the interpreter, and pipx took `/bin/sh` for the interpreter, so `pipx reinstall` kept a stale copy and warned \"File exists ... Not modifying.\" ([#2392](https://github.com/pypa/pipx/pull/2392)) by @gaborbernat.\n\n<a name=\"release-1-18-10-security\"></a>\n\n### Security\n\n- `pipx run` now names its cached environments with an HMAC keyed by a random per-user secret, stored with mode `0600` in `.run-key` inside the run cache. Before, the name was a plain hash of inputs that include tokens and proxy passwords from the environment, so another account that could list the cache could check guesses at those values against it. Existing cache entries are not reused and expire as usual ([#2370](https://github.com/pypa/pipx/pull/2370)) by @gaborbernat.\n- pipx no longer records an abbreviation of a one-shot pip option that the current pip finds ambiguous but an older pip accepts, such as `--requirem FILE`, which pip 24.0 reads as `--requirement FILE`. With such a shared pip, a later `pipx upgrade` or `pipx reinstall` used to replay it and install from whatever another account had put at that path. An existing record drops it when read, and an abbreviation that could name a source option such as `--constraint` goes through the same replay check as that option ([#2390](https://github.com/pypa/pipx/pull/2390)) by @gaborbernat.\n- pipx no longer records an interpreter that lives inside another virtual environment, such as the `python3` of an activated bootstrap environment or of one made with `python3 -m venv --copies`. It records the base interpreter named in that environment's `pyvenv.cfg`, which outlives the bootstrap. `pipx install-all` also stops building on an exported interpreter that sits inside a virtual environment or that another account can change, and uses the default Python with a message instead, so a snapshot taken before the bootstrap was removed no longer runs whatever another account later puts at its old path ([#2402](https://github.com/pypa/pipx/pull/2402)) by @gaborbernat.\n\n[PyPI release](https://pypi.org/project/pipx/1.18.10/)\n\n[Full Changelog](https://github.com/pypa/pipx/compare/1.18.9...1.18.10)\n",
   "mentions_count": 1
 }
