@@ -1,741 +1,3 @@
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.17.2
-  origversion: 1.17.2-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.17.1
-  origversion: 1.17.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.16.7
-  origversion: 1.16.7-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.16.6
-  origversion: 1.16.6-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.16.5
-  origversion: 1.16.5-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.16.4
-  origversion: 1.16.4-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.16.3
-  origversion: 1.16.3-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.16.2
-  origversion: 1.16.2-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.16.1
-  origversion: 1.16.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.16.0
-  origversion: 1.16.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.15.0
-  origversion: 1.15.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: scoop
-  subrepo: main
-  binname: pipx
-  visiblename: pipx
-  version: 1.18.10
-  origversion: null
-  status: newest
-  licenses:
-    - MIT
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.14.1
-  origversion: 1.14.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.14.0
-  origversion: 1.14.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: fedora_39
-  subrepo: release
-  srcname: pipx
-  binnames:
-    - pipx
-  visiblename: pipx
-  version: 1.2.0
-  origversion: 1.2.0-5.fc39
-  status: legacy
-  summary: Install and run Python applications in isolated environments
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.17.4
-  origversion: 1.17.4-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: slackbuilds
-  srcname: python/python3-pipx
-  visiblename: python/python3-pipx
-  version: 1.11.1
-  origversion: null
-  status: outdated
-  maintainers:
-    - vijaymarcel@outlook.com
-  categories:
-    - python
-- repo: alpine_3_19
-  subrepo: community
-  srcname: pipx
-  binname: pipx
-  visiblename: pipx
-  version: 1.4.3
-  origversion: 1.4.3-r0
-  status: outdated
-  summary: Install and Run Python Applications in Isolated Environments
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - MIT
-- repo: alpine_3_19
-  subrepo: community
-  srcname: pipx
-  binname: pipx-pyc
-  visiblename: pipx-pyc
-  version: 1.4.3
-  origversion: 1.4.3-r0
-  status: outdated
-  summary: Precompiled Python bytecode for pipx
-  maintainers:
-    - fallback-mnt-alpine@repology
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: pipx
-  binname: pipx
-  visiblename: pipx
-  version: 1.6.0
-  origversion: 1.6.0-r0
-  status: outdated
-  summary: Install and Run Python Applications in Isolated Environments
-  maintainers:
-    - fossdd@pwned.life
-  licenses:
-    - MIT
-- repo: alpine_3_20
-  subrepo: community
-  srcname: pipx
-  binname: pipx-pyc
-  visiblename: pipx-pyc
-  version: 1.6.0
-  origversion: 1.6.0-r0
-  status: outdated
-  summary: Precompiled Python bytecode for pipx
-  maintainers:
-    - fossdd@pwned.life
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: pipx
-  binname: pipx
-  visiblename: pipx
-  version: 1.7.1
-  origversion: 1.7.1-r0
-  status: outdated
-  summary: Install and Run Python Applications in Isolated Environments
-  maintainers:
-    - fossdd@pwned.life
-  licenses:
-    - MIT
-- repo: alpine_3_21
-  subrepo: community
-  srcname: pipx
-  binname: pipx-pyc
-  visiblename: pipx-pyc
-  version: 1.7.1
-  origversion: 1.7.1-r0
-  status: outdated
-  summary: Precompiled Python bytecode for pipx
-  maintainers:
-    - fossdd@pwned.life
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: pipx
-  binname: pipx
-  visiblename: pipx
-  version: 1.7.1
-  origversion: 1.7.1-r0
-  status: outdated
-  summary: Install and Run Python Applications in Isolated Environments
-  maintainers:
-    - fossdd@pwned.life
-  licenses:
-    - MIT
-- repo: alpine_3_22
-  subrepo: community
-  srcname: pipx
-  binname: pipx-pyc
-  visiblename: pipx-pyc
-  version: 1.7.1
-  origversion: 1.7.1-r0
-  status: outdated
-  summary: Precompiled Python bytecode for pipx
-  maintainers:
-    - fossdd@pwned.life
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: pipx
-  binname: pipx
-  visiblename: pipx
-  version: 1.8.0
-  origversion: 1.8.0-r0
-  status: outdated
-  summary: Install and Run Python Applications in Isolated Environments
-  maintainers:
-    - achill@achill.org
-  licenses:
-    - MIT
-- repo: alpine_3_23
-  subrepo: community
-  srcname: pipx
-  binname: pipx-pyc
-  visiblename: pipx-pyc
-  version: 1.8.0
-  origversion: 1.8.0-r0
-  status: outdated
-  summary: Precompiled Python bytecode for pipx
-  maintainers:
-    - achill@achill.org
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: pipx
-  binname: pipx
-  visiblename: pipx
-  version: 1.14.0
-  origversion: 1.14.0-r0
-  status: outdated
-  summary: Install and Run Python Applications in Isolated Environments
-  maintainers:
-    - achill@achill.org
-  licenses:
-    - MIT
-- repo: alpine_3_24
-  subrepo: community
-  srcname: pipx
-  binname: pipx-pyc
-  visiblename: pipx-pyc
-  version: 1.14.0
-  origversion: 1.14.0-r0
-  status: outdated
-  summary: Precompiled Python bytecode for pipx
-  maintainers:
-    - achill@achill.org
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: pipx
-  binname: pipx
-  visiblename: pipx
-  version: 1.18.4
-  origversion: 1.18.4-r0
-  status: outdated
-  summary: Install and Run Python Applications in Isolated Environments
-  maintainers:
-    - achill@achill.org
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: pipx
-  binname: pipx-doc
-  visiblename: pipx-doc
-  version: 1.18.4
-  origversion: 1.18.4-r0
-  status: outdated
-  summary: Install and Run Python Applications in Isolated Environments (documentation)
-  maintainers:
-    - achill@achill.org
-  licenses:
-    - MIT
-- repo: alpine_edge
-  subrepo: community
-  srcname: pipx
-  binname: pipx-pyc
-  visiblename: pipx-pyc
-  version: 1.18.4
-  origversion: 1.18.4-r0
-  status: outdated
-  summary: Precompiled Python bytecode for pipx
-  maintainers:
-    - achill@achill.org
-  licenses:
-    - MIT
-- repo: alt_p11
-  srcname: python3-module-pipx
-  binnames:
-    - python3-module-pipx
-  visiblename: python3-module-pipx
-  version: 1.5.0
-  origversion: 1.5.0-alt1
-  status: outdated
-  summary: Install and Run Python Applications in Isolated Environments
-  maintainers:
-    - ancieg@altlinux.org
-  licenses:
-    - MIT
-  categories:
-    - Development/Python3
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.17.3
-  origversion: 1.17.3-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: altsisyphus
-  srcname: python3-module-pipx
-  binnames:
-    - python3-module-pipx
-  visiblename: python3-module-pipx
-  version: 1.17.8
-  origversion: 1.17.8-alt1
-  status: outdated
-  summary: Install and Run Python Applications in Isolated Environments
-  maintainers:
-    - ancieg@altlinux.org
-  licenses:
-    - MIT
-  categories:
-    - Development/Python3
-- repo: aosc
-  srcname: lang-python/pipx
-  binname: pipx
-  visiblename: pipx
-  version: 1.16.7
-  origversion: null
-  status: outdated
-  summary: Python tool for installing Python applications to isolated venvs
-  maintainers:
-    - fallback-mnt-aosc@repology
-  categories:
-    - python
-- repo: arch
-  subrepo: extra
-  srcname: python-pipx
-  binname: python-pipx
-  visiblename: python-pipx
-  version: 1.18.4
-  origversion: 1.18.4-2
-  status: outdated
-  summary: Install and Run Python Applications in Isolated Environments
-  licenses:
-    - MIT
-- repo: aur
-  srcname: python-pipx-git
-  binname: python-pipx-git
-  visiblename: python-pipx-git
-  version: r723.9ae41342
-  origversion: r723.9ae41342-1
-  status: rolling
-  summary: Install and Run Python Applications in Isolated Environments
-  maintainers:
-    - fossdd@aur
-  licenses:
-    - BSD
-    - MIT
-- repo: artix
-  subrepo: world
-  srcname: python-pipx
-  binname: python-pipx
-  visiblename: python-pipx
-  version: 1.18.4
-  origversion: 1.18.4-1
-  status: outdated
-  summary: Install and Run Python Applications in Isolated Environments
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: main
-  srcname: pipx
-  binname: pipx
-  visiblename: pipx
-  version: 1.17.8
-  origversion: 1.17.8-r0
-  status: outdated
-  summary: Python tool for installing binaries to venvs
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: main
-  srcname: pipx
-  binname: pipx-doc
-  visiblename: pipx-doc
-  version: 1.17.8
-  origversion: 1.17.8-r0
-  status: outdated
-  summary: Python tool for installing binaries to venvs (documentation)
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: main
-  srcname: pipx
-  binname: pipx-man
-  visiblename: pipx-man
-  version: 1.17.8
-  origversion: 1.17.8-r0
-  status: outdated
-  summary: Python tool for installing binaries to venvs (manual pages)
-  licenses:
-    - MIT
-- repo: chimera
-  subrepo: main
-  srcname: pipx
-  binname: pipx-pycache
-  visiblename: pipx-pycache
-  version: 1.17.8
-  origversion: 1.17.8-r0
-  status: outdated
-  summary: Python tool for installing binaries to venvs (Python bytecode)
-  licenses:
-    - MIT
-- repo: chocolatey
-  binname: pipx
-  visiblename: pipx
-  version: 1.16.7
-  origversion: null
-  status: outdated
-  summary: Install and run Python applications in isolated environments
-- repo: cygwin
-  srcname: python-pipx
-  binname: python3-pipx
-  visiblename: python3-pipx
-  version: 1.18.5
-  origversion: 1.18.5-1
-  status: outdated
-  summary: Install and Run Python Applications in Isolated Environments
-  maintainers:
-    - marco.atzeri@cygwin
-  licenses:
-    - MIT
-  categories:
-    - Python
-- repo: cygwin
-  srcname: python-pipx
-  binname: python312-pipx
-  visiblename: python312-pipx
-  version: 1.18.5
-  origversion: 1.18.5-1
-  status: outdated
-  summary: Install and Run Python Applications in Isolated Environments
-  maintainers:
-    - marco.atzeri@cygwin
-  licenses:
-    - MIT
-  categories:
-    - Python
-- repo: cygwin
-  srcname: python-pipx
-  binname: python39-pipx
-  visiblename: python39-pipx
-  version: 1.18.5
-  origversion: 1.18.5-1
-  status: outdated
-  summary: Install and Run Python Applications in Isolated Environments
-  maintainers:
-    - marco.atzeri@cygwin
-  licenses:
-    - MIT
-  categories:
-    - Python
-- repo: debian_12
-  subrepo: bookworm/main
-  srcname: python-pipx
-  binnames:
-    - pipx
-  visiblename: python-pipx
-  version: 1.1.0
-  origversion: 1.1.0-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - stefanor@debian.org
-  categories:
-    - misc
-- repo: debian_13
-  subrepo: trixie/main
-  srcname: python-pipx
-  binnames:
-    - pipx
-  visiblename: python-pipx
-  version: 1.7.1
-  origversion: 1.7.1-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - stefanor@debian.org
-  categories:
-    - misc
-- repo: debian_14
-  subrepo: forky/main
-  srcname: python-pipx
-  binnames:
-    - pipx
-  visiblename: python-pipx
-  version: 1.15.0
-  origversion: 1.15.0-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - stefanor@debian.org
-  categories:
-    - misc
-- repo: debian_unstable
-  subrepo: sid/main
-  srcname: python-pipx
-  binnames:
-    - pipx
-  visiblename: python-pipx
-  version: 1.15.0
-  origversion: 1.15.0-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - stefanor@debian.org
-  categories:
-    - misc
-- repo: deepin_unstable
-  subrepo: main
-  srcname: python-pipx
-  binnames:
-    - pipx
-  visiblename: python-pipx
-  version: 0.12.1.0
-  origversion: 0.12.1.0-1
-  status: outdated
-  maintainers:
-    - dr@jones.dk
-- repo: deepin_23
-  subrepo: main
-  srcname: python-pipx
-  binnames:
-    - pipx
-  visiblename: python-pipx
-  version: 1.2.1
-  origversion: 1.2.1-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - stefanor@debian.org
-  categories:
-    - python
-- repo: deepin_25
-  subrepo: main
-  srcname: python-pipx
-  binnames:
-    - pipx
-  visiblename: python-pipx
-  version: 1.2.1
-  origversion: 1.2.1-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - stefanor@debian.org
-  categories:
-    - python
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: python-pipx
-  binnames:
-    - pipx
-  visiblename: python-pipx
-  version: 1.15.0
-  origversion: 1.15.0-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - stefanor@debian.org
-  categories:
-    - misc
-- repo: epel_9
-  srcname: pipx
-  binnames:
-    - pipx
-    - pipx-doc
-  visiblename: pipx
-  version: 1.2.1
-  origversion: 1.2.1-2.el9
-  status: outdated
-  summary: Install and run Python applications in isolated environments
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: epel_10
-  srcname: pipx
-  binnames:
-    - pipx
-    - pipx+uv
-  visiblename: pipx
-  version: 1.15.0
-  origversion: 1.15.0-2.el10_3
-  status: outdated
-  summary: Install and run Python applications in isolated environments
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: exherbo
-  subrepo: platypus
-  srcname: dev-python/pipx
-  visiblename: dev-python/pipx
-  version: 1.6.0
-  origversion: null
-  status: outdated
-  summary: Execute binaries from Python packages in isolated environments
-  maintainers:
-    - fallback-mnt-exherbo@repology
-  categories:
-    - dev-python
-- repo: fedora_39
-  subrepo: updates
-  srcname: pipx
-  binnames:
-    - pipx
-  visiblename: pipx
-  version: 1.7.1
-  origversion: 1.7.1-1.fc39
-  status: outdated
-  summary: Install and run Python applications in isolated environments
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_40
-  subrepo: updates
-  srcname: pipx
-  binnames:
-    - pipx
-  visiblename: pipx
-  version: 1.7.1
-  origversion: 1.7.1-1.fc40
-  status: outdated
-  summary: Install and run Python applications in isolated environments
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_40
-  subrepo: release
-  srcname: pipx
-  binnames:
-    - pipx
-  visiblename: pipx
-  version: 1.4.3
-  origversion: 1.4.3-3.fc40
-  status: legacy
-  summary: Install and run Python applications in isolated environments
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_41
-  subrepo: release
-  srcname: pipx
-  binnames:
-    - pipx
-  visiblename: pipx
-  version: 1.7.1
-  origversion: 1.7.1-1.fc41
-  status: legacy
-  summary: Install and run Python applications in isolated environments
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
 - repo: fedora_41
   subrepo: updates
   srcname: pipx
@@ -750,14 +12,14 @@
     - MIT
   categories:
     - Unspecified
-- repo: fedora_42
+- repo: fedora_41
   subrepo: release
   srcname: pipx
   binnames:
     - pipx
   visiblename: pipx
   version: 1.7.1
-  origversion: 1.7.1-3.fc42
+  origversion: 1.7.1-1.fc41
   status: legacy
   summary: Install and run Python applications in isolated environments
   licenses:
@@ -779,14 +41,14 @@
     - MIT
   categories:
     - Unspecified
-- repo: fedora_43
+- repo: fedora_42
   subrepo: release
   srcname: pipx
   binnames:
     - pipx
   visiblename: pipx
   version: 1.7.1
-  origversion: 1.7.1-10.fc43
+  origversion: 1.7.1-3.fc42
   status: legacy
   summary: Install and run Python applications in isolated environments
   licenses:
@@ -808,14 +70,14 @@
     - MIT
   categories:
     - Unspecified
-- repo: fedora_44
+- repo: fedora_43
   subrepo: release
   srcname: pipx
   binnames:
     - pipx
   visiblename: pipx
-  version: 1.11.0
-  origversion: 1.11.0-1.fc44
+  version: 1.7.1
+  origversion: 1.7.1-10.fc43
   status: legacy
   summary: Install and run Python applications in isolated environments
   licenses:
@@ -837,6 +99,20 @@
     - MIT
   categories:
     - Unspecified
+- repo: fedora_44
+  subrepo: release
+  srcname: pipx
+  binnames:
+    - pipx
+  visiblename: pipx
+  version: 1.11.0
+  origversion: 1.11.0-1.fc44
+  status: legacy
+  summary: Install and run Python applications in isolated environments
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
 - repo: fedora_rawhide
   subrepo: development
   srcname: pipx
@@ -844,8 +120,8 @@
     - pipx
     - pipx+uv
   visiblename: pipx
-  version: 1.18.7
-  origversion: 1.18.7-1.fc46
+  version: 1.18.9
+  origversion: 1.18.9-1.fc46
   status: outdated
   summary: Install and run Python applications in isolated environments
   licenses:
@@ -875,31 +151,10 @@
 - repo: homebrew
   srcname: pipx
   visiblename: pipx
-  version: 1.18.8
+  version: 1.18.10
   origversion: null
   status: outdated
   summary: Execute binaries from Python packages in isolated environments
-- repo: homebrew
-  srcname: pipx
-  visiblename: pipx
-  version: HEAD
-  origversion: null
-  status: rolling
-  summary: Execute binaries from Python packages in isolated environments
-- repo: kali_rolling
-  subrepo: main
-  srcname: python-pipx
-  binnames:
-    - pipx
-  visiblename: python-pipx
-  version: 1.15.0
-  origversion: 1.15.0-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - stefanor@debian.org
-  categories:
-    - misc
 - repo: liguros_stable
   srcname: dev-python/pipx
   visiblename: dev-python/pipx
@@ -964,8 +219,8 @@
   srcname: mingw-w64-python-pipx
   binname: mingw-w64-clang-x86_64-python-pipx
   visiblename: mingw-w64-clang-x86_64-python-pipx
-  version: 1.18.4
-  origversion: 1.18.4-1
+  version: 1.18.10
+  origversion: 1.18.10-1
   status: outdated
   summary: Install and Run Python Applications in Isolated Environments (mingw-w64)
   licenses:
@@ -974,8 +229,8 @@
   srcname: mingw-w64-python-pipx
   binname: mingw-w64-clang-aarch64-python-pipx
   visiblename: mingw-w64-clang-aarch64-python-pipx
-  version: 1.18.4
-  origversion: 1.18.4-1
+  version: 1.18.10
+  origversion: 1.18.10-1
   status: outdated
   summary: Install and Run Python Applications in Isolated Environments (mingw-w64)
   licenses:
@@ -984,12 +239,34 @@
   srcname: mingw-w64-python-pipx
   binname: mingw-w64-ucrt-x86_64-python-pipx
   visiblename: mingw-w64-ucrt-x86_64-python-pipx
-  version: 1.18.4
-  origversion: 1.18.4-1
+  version: 1.18.10
+  origversion: 1.18.10-1
   status: outdated
   summary: Install and Run Python Applications in Isolated Environments (mingw-w64)
   licenses:
     - spdx:MIT
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.17.1
+  origversion: 1.17.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: nix_stable_24_05
+  srcname: python312Packages.pipx
+  visiblename: python3.12-pipx
+  version: 1.4.3
+  origversion: null
+  status: outdated
+  summary: Install and run Python applications in isolated environments
+  maintainers:
+    - yshym@pm.me
+  licenses:
+    - MIT
+  categories:
+    - python312Packages
 - repo: nix_stable_24_05
   srcname: pipx
   visiblename: pipx
@@ -1014,10 +291,10 @@
     - MIT
   categories:
     - python311Packages
-- repo: nix_stable_24_05
+- repo: nix_stable_24_11
   srcname: python312Packages.pipx
   visiblename: python3.12-pipx
-  version: 1.4.3
+  version: 1.7.1
   origversion: null
   status: outdated
   summary: Install and run Python applications in isolated environments
@@ -1051,7 +328,7 @@
     - MIT
   categories:
     - python311Packages
-- repo: nix_stable_24_11
+- repo: nix_stable_25_05
   srcname: python312Packages.pipx
   visiblename: python3.12-pipx
   version: 1.7.1
@@ -1064,6 +341,17 @@
     - MIT
   categories:
     - python312Packages
+- repo: nix_stable_25_05
+  srcname: pipx
+  visiblename: pipx
+  version: 1.7.1
+  origversion: null
+  status: outdated
+  summary: Install and run Python applications in isolated environments
+  maintainers:
+    - yshym@pm.me
+  licenses:
+    - MIT
 - repo: nix_stable_25_05
   srcname: python313Packages.pipx
   visiblename: python3.13-pipx
@@ -1077,10 +365,10 @@
     - MIT
   categories:
     - python313Packages
-- repo: nix_stable_25_05
+- repo: nix_stable_25_11
   srcname: python312Packages.pipx
   visiblename: python3.12-pipx
-  version: 1.7.1
+  version: 1.8.0
   origversion: null
   status: outdated
   summary: Install and run Python applications in isolated environments
@@ -1090,10 +378,10 @@
     - MIT
   categories:
     - python312Packages
-- repo: nix_stable_25_05
+- repo: nix_stable_25_11
   srcname: pipx
   visiblename: pipx
-  version: 1.7.1
+  version: 1.8.0
   origversion: null
   status: outdated
   summary: Install and run Python applications in isolated environments
@@ -1114,43 +402,6 @@
     - MIT
   categories:
     - python313Packages
-- repo: nix_stable_25_11
-  srcname: python312Packages.pipx
-  visiblename: python3.12-pipx
-  version: 1.8.0
-  origversion: null
-  status: outdated
-  summary: Install and run Python applications in isolated environments
-  maintainers:
-    - yshym@pm.me
-  licenses:
-    - MIT
-  categories:
-    - python312Packages
-- repo: nix_stable_25_11
-  srcname: pipx
-  visiblename: pipx
-  version: 1.8.0
-  origversion: null
-  status: outdated
-  summary: Install and run Python applications in isolated environments
-  maintainers:
-    - yshym@pm.me
-  licenses:
-    - MIT
-- repo: nix_stable_26_05
-  srcname: python314Packages.pipx
-  visiblename: pipx
-  version: 1.14.0
-  origversion: null
-  status: outdated
-  summary: Install and run Python applications in isolated environments
-  maintainers:
-    - yshym@pm.me
-  licenses:
-    - MIT
-  categories:
-    - python314Packages
 - repo: nix_stable_26_05
   srcname: pipx
   visiblename: pipx
@@ -1175,6 +426,32 @@
     - MIT
   categories:
     - python313Packages
+- repo: nix_stable_26_05
+  srcname: python314Packages.pipx
+  visiblename: pipx
+  version: 1.14.0
+  origversion: null
+  status: outdated
+  summary: Install and run Python applications in isolated environments
+  maintainers:
+    - yshym@pm.me
+  licenses:
+    - MIT
+  categories:
+    - python314Packages
+- repo: nix_unstable
+  srcname: python314Packages.pipx
+  visiblename: pipx
+  version: 1.16.6
+  origversion: null
+  status: outdated
+  summary: Install and run Python applications in isolated environments
+  maintainers:
+    - yshym@pm.me
+  licenses:
+    - MIT
+  categories:
+    - python314Packages
 - repo: nix_unstable
   srcname: pipx
   visiblename: pipx
@@ -1199,19 +476,6 @@
     - MIT
   categories:
     - python313Packages
-- repo: nix_unstable
-  srcname: python314Packages.pipx
-  visiblename: pipx
-  version: 1.16.6
-  origversion: null
-  status: outdated
-  summary: Install and run Python applications in isolated environments
-  maintainers:
-    - yshym@pm.me
-  licenses:
-    - MIT
-  categories:
-    - python314Packages
 - repo: openbsd
   srcname: sysutils/py-pipx
   binname: py3-pipx
@@ -1345,7 +609,7 @@
   licenses:
     - MIT
 - repo: parrot
-  subrepo: parrot-updates/main
+  subrepo: parrot/main
   srcname: python-pipx
   binnames:
     - pipx
@@ -1359,7 +623,7 @@
   categories:
     - misc
 - repo: parrot
-  subrepo: parrot/main
+  subrepo: parrot-updates/main
   srcname: python-pipx
   binnames:
     - pipx
@@ -1409,7 +673,7 @@
   srcname: devel/py-pipx
   binname: py313-pipx
   visiblename: devel/py-pipx
-  version: 1.18.4
+  version: 1.18.9
   origversion: null
   status: outdated
   summary: Install and Run Python Applications in Isolated Environments
@@ -1448,7 +712,7 @@
   srcname: pipx
   binname: pipx
   visiblename: pipx
-  version: 1.18.10
+  version: 1.18.11
   origversion: null
   status: newest
   summary: Install and Run Python Applications in Isolated Environments
@@ -1494,6 +758,25 @@
     - stefanor@debian.org
   categories:
     - misc
+- repo: scoop
+  subrepo: main
+  binname: pipx
+  visiblename: pipx
+  version: 1.18.11
+  origversion: null
+  status: newest
+  licenses:
+    - MIT
+- repo: slackbuilds
+  srcname: python/python3-pipx
+  visiblename: python/python3-pipx
+  version: 1.11.1
+  origversion: null
+  status: outdated
+  maintainers:
+    - vijaymarcel@outlook.com
+  categories:
+    - python
 - repo: solus
   srcname: pipx
   binname: pipx
@@ -1521,7 +804,7 @@
 - repo: t2
   srcname: pipx
   visiblename: pipx
-  version: 1.18.7
+  version: 1.18.10
   origversion: null
   status: outdated
   summary: Install and run Python applicatoins in isolated environments
@@ -1558,6 +841,15 @@
     - stefanor@debian.org
   categories:
     - universe/misc
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.16.7
+  origversion: 1.16.7-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
 - repo: ubuntu_24_04
   subrepo: noble/universe
   srcname: python-pipx
@@ -1645,9 +937,18 @@
   subrepo: dev
   binname: pipx
   visiblename: pipx
+  version: 1.18.11
+  origversion: 1.18.11-1~ops2deb
+  status: newest
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
   version: 1.18.10
   origversion: 1.18.10-1~ops2deb
-  status: newest
+  status: legacy
   maintainers:
     - ops2deb@upciti.com
 - repo: wakemeops
@@ -1825,8 +1126,8 @@
   subrepo: dev
   binname: pipx
   visiblename: pipx
-  version: 1.13.0
-  origversion: 1.13.0-1~ops2deb
+  version: 1.17.4
+  origversion: 1.17.4-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
@@ -1834,35 +1135,8 @@
   subrepo: dev
   binname: pipx
   visiblename: pipx
-  version: 1.12.0
-  origversion: 1.12.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.11.2
-  origversion: 1.11.2-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.11.1
-  origversion: 1.11.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.11.0
-  origversion: 1.11.0-1~ops2deb
+  version: 1.17.3
+  origversion: 1.17.3-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
@@ -1947,21 +1221,747 @@
   status: legacy
   maintainers:
     - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.4.1
-  origversion: 1.4.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
 - repo: wikidata
   srcname: Q107387212
   visiblename: pipx
-  version: 1.18.9
+  version: 1.18.10
   origversion: null
   status: outdated
   summary: software to install Python software in isolated environments
   licenses:
     - MIT License
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.16.3
+  origversion: 1.16.3-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.16.2
+  origversion: 1.16.2-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.16.1
+  origversion: 1.16.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.16.0
+  origversion: 1.16.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.15.0
+  origversion: 1.15.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.14.1
+  origversion: 1.14.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.14.0
+  origversion: 1.14.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.13.0
+  origversion: 1.13.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.12.0
+  origversion: 1.12.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.11.2
+  origversion: 1.11.2-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.11.1
+  origversion: 1.11.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.11.0
+  origversion: 1.11.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.16.6
+  origversion: 1.16.6-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.16.5
+  origversion: 1.16.5-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.16.4
+  origversion: 1.16.4-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.17.2
+  origversion: 1.17.2-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: alpine_3_19
+  subrepo: community
+  srcname: pipx
+  binname: pipx
+  visiblename: pipx
+  version: 1.4.3
+  origversion: 1.4.3-r0
+  status: outdated
+  summary: Install and Run Python Applications in Isolated Environments
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - MIT
+- repo: alpine_3_19
+  subrepo: community
+  srcname: pipx
+  binname: pipx-pyc
+  visiblename: pipx-pyc
+  version: 1.4.3
+  origversion: 1.4.3-r0
+  status: outdated
+  summary: Precompiled Python bytecode for pipx
+  maintainers:
+    - fallback-mnt-alpine@repology
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: pipx
+  binname: pipx
+  visiblename: pipx
+  version: 1.6.0
+  origversion: 1.6.0-r0
+  status: outdated
+  summary: Install and Run Python Applications in Isolated Environments
+  maintainers:
+    - fossdd@pwned.life
+  licenses:
+    - MIT
+- repo: alpine_3_20
+  subrepo: community
+  srcname: pipx
+  binname: pipx-pyc
+  visiblename: pipx-pyc
+  version: 1.6.0
+  origversion: 1.6.0-r0
+  status: outdated
+  summary: Precompiled Python bytecode for pipx
+  maintainers:
+    - fossdd@pwned.life
+  licenses:
+    - MIT
+- repo: homebrew
+  srcname: pipx
+  visiblename: pipx
+  version: HEAD
+  origversion: null
+  status: rolling
+  summary: Execute binaries from Python packages in isolated environments
+- repo: alpine_3_21
+  subrepo: community
+  srcname: pipx
+  binname: pipx
+  visiblename: pipx
+  version: 1.7.1
+  origversion: 1.7.1-r0
+  status: outdated
+  summary: Install and Run Python Applications in Isolated Environments
+  maintainers:
+    - fossdd@pwned.life
+  licenses:
+    - MIT
+- repo: alpine_3_21
+  subrepo: community
+  srcname: pipx
+  binname: pipx-pyc
+  visiblename: pipx-pyc
+  version: 1.7.1
+  origversion: 1.7.1-r0
+  status: outdated
+  summary: Precompiled Python bytecode for pipx
+  maintainers:
+    - fossdd@pwned.life
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: pipx
+  binname: pipx
+  visiblename: pipx
+  version: 1.7.1
+  origversion: 1.7.1-r0
+  status: outdated
+  summary: Install and Run Python Applications in Isolated Environments
+  maintainers:
+    - fossdd@pwned.life
+  licenses:
+    - MIT
+- repo: alpine_3_22
+  subrepo: community
+  srcname: pipx
+  binname: pipx-pyc
+  visiblename: pipx-pyc
+  version: 1.7.1
+  origversion: 1.7.1-r0
+  status: outdated
+  summary: Precompiled Python bytecode for pipx
+  maintainers:
+    - fossdd@pwned.life
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: pipx
+  binname: pipx
+  visiblename: pipx
+  version: 1.8.0
+  origversion: 1.8.0-r0
+  status: outdated
+  summary: Install and Run Python Applications in Isolated Environments
+  maintainers:
+    - achill@achill.org
+  licenses:
+    - MIT
+- repo: alpine_3_23
+  subrepo: community
+  srcname: pipx
+  binname: pipx-pyc
+  visiblename: pipx-pyc
+  version: 1.8.0
+  origversion: 1.8.0-r0
+  status: outdated
+  summary: Precompiled Python bytecode for pipx
+  maintainers:
+    - achill@achill.org
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: pipx
+  binname: pipx
+  visiblename: pipx
+  version: 1.14.0
+  origversion: 1.14.0-r0
+  status: outdated
+  summary: Install and Run Python Applications in Isolated Environments
+  maintainers:
+    - achill@achill.org
+  licenses:
+    - MIT
+- repo: alpine_3_24
+  subrepo: community
+  srcname: pipx
+  binname: pipx-pyc
+  visiblename: pipx-pyc
+  version: 1.14.0
+  origversion: 1.14.0-r0
+  status: outdated
+  summary: Precompiled Python bytecode for pipx
+  maintainers:
+    - achill@achill.org
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: pipx
+  binname: pipx
+  visiblename: pipx
+  version: 1.18.4
+  origversion: 1.18.4-r0
+  status: outdated
+  summary: Install and Run Python Applications in Isolated Environments
+  maintainers:
+    - achill@achill.org
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: pipx
+  binname: pipx-doc
+  visiblename: pipx-doc
+  version: 1.18.4
+  origversion: 1.18.4-r0
+  status: outdated
+  summary: Install and Run Python Applications in Isolated Environments (documentation)
+  maintainers:
+    - achill@achill.org
+  licenses:
+    - MIT
+- repo: alpine_edge
+  subrepo: community
+  srcname: pipx
+  binname: pipx-pyc
+  visiblename: pipx-pyc
+  version: 1.18.4
+  origversion: 1.18.4-r0
+  status: outdated
+  summary: Precompiled Python bytecode for pipx
+  maintainers:
+    - achill@achill.org
+  licenses:
+    - MIT
+- repo: alt_p11
+  srcname: python3-module-pipx
+  binnames:
+    - python3-module-pipx
+  visiblename: python3-module-pipx
+  version: 1.5.0
+  origversion: 1.5.0-alt1
+  status: outdated
+  summary: Install and Run Python Applications in Isolated Environments
+  maintainers:
+    - ancieg@altlinux.org
+  licenses:
+    - MIT
+  categories:
+    - Development/Python3
+- repo: altsisyphus
+  srcname: python3-module-pipx
+  binnames:
+    - python3-module-pipx
+  visiblename: python3-module-pipx
+  version: 1.18.10
+  origversion: 1.18.10-alt1
+  status: outdated
+  summary: Install and Run Python Applications in Isolated Environments
+  maintainers:
+    - ancieg@altlinux.org
+  licenses:
+    - MIT
+  categories:
+    - Development/Python3
+- repo: aosc
+  srcname: lang-python/pipx
+  binname: pipx
+  visiblename: pipx
+  version: 1.16.7
+  origversion: null
+  status: outdated
+  summary: Python tool for installing Python applications to isolated venvs
+  maintainers:
+    - fallback-mnt-aosc@repology
+  categories:
+    - python
+- repo: arch
+  subrepo: extra
+  srcname: python-pipx
+  binname: python-pipx
+  visiblename: python-pipx
+  version: 1.18.4
+  origversion: 1.18.4-2
+  status: outdated
+  summary: Install and Run Python Applications in Isolated Environments
+  licenses:
+    - MIT
+- repo: aur
+  srcname: python-pipx-git
+  binname: python-pipx-git
+  visiblename: python-pipx-git
+  version: r723.9ae41342
+  origversion: r723.9ae41342-1
+  status: rolling
+  summary: Install and Run Python Applications in Isolated Environments
+  maintainers:
+    - fossdd@aur
+  licenses:
+    - BSD
+    - MIT
+- repo: artix
+  subrepo: world
+  srcname: python-pipx
+  binname: python-pipx
+  visiblename: python-pipx
+  version: 1.18.4
+  origversion: 1.18.4-1
+  status: outdated
+  summary: Install and Run Python Applications in Isolated Environments
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: main
+  srcname: pipx
+  binname: pipx
+  visiblename: pipx
+  version: 1.17.8
+  origversion: 1.17.8-r0
+  status: outdated
+  summary: Python tool for installing binaries to venvs
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: main
+  srcname: pipx
+  binname: pipx-doc
+  visiblename: pipx-doc
+  version: 1.17.8
+  origversion: 1.17.8-r0
+  status: outdated
+  summary: Python tool for installing binaries to venvs (documentation)
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: main
+  srcname: pipx
+  binname: pipx-man
+  visiblename: pipx-man
+  version: 1.17.8
+  origversion: 1.17.8-r0
+  status: outdated
+  summary: Python tool for installing binaries to venvs (manual pages)
+  licenses:
+    - MIT
+- repo: chimera
+  subrepo: main
+  srcname: pipx
+  binname: pipx-pycache
+  visiblename: pipx-pycache
+  version: 1.17.8
+  origversion: 1.17.8-r0
+  status: outdated
+  summary: Python tool for installing binaries to venvs (Python bytecode)
+  licenses:
+    - MIT
+- repo: chocolatey
+  binname: pipx
+  visiblename: pipx
+  version: 1.16.7
+  origversion: null
+  status: outdated
+  summary: Install and run Python applications in isolated environments
+- repo: cygwin
+  srcname: python-pipx
+  binname: python3-pipx
+  visiblename: python3-pipx
+  version: 1.18.5
+  origversion: 1.18.5-1
+  status: outdated
+  summary: Install and Run Python Applications in Isolated Environments
+  maintainers:
+    - marco.atzeri@cygwin
+  licenses:
+    - MIT
+  categories:
+    - Python
+- repo: cygwin
+  srcname: python-pipx
+  binname: python312-pipx
+  visiblename: python312-pipx
+  version: 1.18.5
+  origversion: 1.18.5-1
+  status: outdated
+  summary: Install and Run Python Applications in Isolated Environments
+  maintainers:
+    - marco.atzeri@cygwin
+  licenses:
+    - MIT
+  categories:
+    - Python
+- repo: cygwin
+  srcname: python-pipx
+  binname: python39-pipx
+  visiblename: python39-pipx
+  version: 1.18.5
+  origversion: 1.18.5-1
+  status: outdated
+  summary: Install and Run Python Applications in Isolated Environments
+  maintainers:
+    - marco.atzeri@cygwin
+  licenses:
+    - MIT
+  categories:
+    - Python
+- repo: kali_rolling
+  subrepo: main
+  srcname: python-pipx
+  binnames:
+    - pipx
+  visiblename: python-pipx
+  version: 1.15.0
+  origversion: 1.15.0-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - stefanor@debian.org
+  categories:
+    - misc
+- repo: debian_12
+  subrepo: bookworm/main
+  srcname: python-pipx
+  binnames:
+    - pipx
+  visiblename: python-pipx
+  version: 1.1.0
+  origversion: 1.1.0-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - stefanor@debian.org
+  categories:
+    - misc
+- repo: debian_13
+  subrepo: trixie/main
+  srcname: python-pipx
+  binnames:
+    - pipx
+  visiblename: python-pipx
+  version: 1.7.1
+  origversion: 1.7.1-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - stefanor@debian.org
+  categories:
+    - misc
+- repo: debian_14
+  subrepo: forky/main
+  srcname: python-pipx
+  binnames:
+    - pipx
+  visiblename: python-pipx
+  version: 1.15.0
+  origversion: 1.15.0-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - stefanor@debian.org
+  categories:
+    - misc
+- repo: debian_unstable
+  subrepo: sid/main
+  srcname: python-pipx
+  binnames:
+    - pipx
+  visiblename: python-pipx
+  version: 1.15.0
+  origversion: 1.15.0-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - stefanor@debian.org
+  categories:
+    - misc
+- repo: deepin_unstable
+  subrepo: main
+  srcname: python-pipx
+  binnames:
+    - pipx
+  visiblename: python-pipx
+  version: 0.12.1.0
+  origversion: 0.12.1.0-1
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+- repo: deepin_23
+  subrepo: main
+  srcname: python-pipx
+  binnames:
+    - pipx
+  visiblename: python-pipx
+  version: 1.2.1
+  origversion: 1.2.1-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - stefanor@debian.org
+  categories:
+    - python
+- repo: deepin_25
+  subrepo: main
+  srcname: python-pipx
+  binnames:
+    - pipx
+  visiblename: python-pipx
+  version: 1.2.1
+  origversion: 1.2.1-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - stefanor@debian.org
+  categories:
+    - python
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: python-pipx
+  binnames:
+    - pipx
+  visiblename: python-pipx
+  version: 1.15.0
+  origversion: 1.15.0-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - stefanor@debian.org
+  categories:
+    - misc
+- repo: epel_9
+  srcname: pipx
+  binnames:
+    - pipx
+    - pipx-doc
+  visiblename: pipx
+  version: 1.2.1
+  origversion: 1.2.1-2.el9
+  status: outdated
+  summary: Install and run Python applications in isolated environments
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: epel_10
+  srcname: pipx
+  binnames:
+    - pipx
+    - pipx+uv
+  visiblename: pipx
+  version: 1.15.0
+  origversion: 1.15.0-2.el10_3
+  status: outdated
+  summary: Install and run Python applications in isolated environments
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: exherbo
+  subrepo: platypus
+  srcname: dev-python/pipx
+  visiblename: dev-python/pipx
+  version: 1.6.0
+  origversion: null
+  status: outdated
+  summary: Execute binaries from Python packages in isolated environments
+  maintainers:
+    - fallback-mnt-exherbo@repology
+  categories:
+    - dev-python
+- repo: fedora_39
+  subrepo: updates
+  srcname: pipx
+  binnames:
+    - pipx
+  visiblename: pipx
+  version: 1.7.1
+  origversion: 1.7.1-1.fc39
+  status: outdated
+  summary: Install and run Python applications in isolated environments
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_39
+  subrepo: release
+  srcname: pipx
+  binnames:
+    - pipx
+  visiblename: pipx
+  version: 1.2.0
+  origversion: 1.2.0-5.fc39
+  status: legacy
+  summary: Install and run Python applications in isolated environments
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: updates
+  srcname: pipx
+  binnames:
+    - pipx
+  visiblename: pipx
+  version: 1.7.1
+  origversion: 1.7.1-1.fc40
+  status: outdated
+  summary: Install and run Python applications in isolated environments
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_40
+  subrepo: release
+  srcname: pipx
+  binnames:
+    - pipx
+  visiblename: pipx
+  version: 1.4.3
+  origversion: 1.4.3-3.fc40
+  status: legacy
+  summary: Install and run Python applications in isolated environments
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
