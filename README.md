@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,982 · **Forks**: 632 · **Open issues**: 1,002 · **Contributors**: 293
+- **Stars**: 12,985 · **Forks**: 632 · **Open issues**: 1,002 · **Contributors**: 293
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 33 | 243 | 0 | 85 | 0 | 263 |
-| last60d | 2026-09-01 | 40 | 265 | 0 | 91 | 0 | 293 |
-| 90d | 2026-08-02 | 43 | 290 | 0 | 97 | 0 | 322 |
-| last180d | 2026-05-04 | 57 | 440 | 0 | 117 | 0 | 493 |
-| 360d | 2025-11-05 | 62 | 516 | 0 | 140 | 0 | 577 |
-| last720d | 2024-11-10 | 63 | 545 | 0 | 201 | 0 | 604 |
+| 30d | 2026-10-02 | 32 | 239 | 0 | 84 | 0 | 249 |
+| last60d | 2026-09-02 | 39 | 264 | 0 | 91 | 0 | 288 |
+| 90d | 2026-08-03 | 43 | 289 | 0 | 96 | 0 | 319 |
+| last180d | 2026-05-05 | 57 | 440 | 0 | 117 | 0 | 485 |
+| 360d | 2025-11-06 | 62 | 516 | 0 | 140 | 0 | 577 |
+| last720d | 2024-11-11 | 63 | 545 | 0 | 201 | 0 | 604 |
 
 ## Release assets
 
@@ -73,7 +73,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **170** distros on [repology.org](https://repology.org/project/pipx). **3** are ✅ on the latest upstream release, **110** are ⚠️ on an older version.
+Reported by **170** distros on [repology.org](https://repology.org/project/pipx). **6** are ✅ on the latest upstream release, **107** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -83,8 +83,8 @@ Reported by **170** distros on [repology.org](https://repology.org/project/pipx)
 | Ubuntu 26.04 LTS | `1.8.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.4.3` | ⚠️ outdated |
 | Arch | `1.18.4` | ⚠️ outdated |
-| Homebrew | `1.18.10` | ⚠️ outdated |
-| Fedora rawhide | `1.18.9` | ⚠️ outdated |
+| Homebrew | `1.18.11` | ✅ latest |
+| Fedora rawhide | `1.18.10` | ⚠️ outdated |
 | Nix unstable | `1.16.6` | ⚠️ outdated |
 | Void | `1.17.2` | ⚠️ outdated |
 | Alpine edge | `1.18.4` | ⚠️ outdated |
@@ -99,4 +99,4 @@ Install metadata for pipx lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261031.yml` · 2026-10-31T06:41:33Z._
+_Snapshot: `data/card/261101.yml` · 2026-11-01T07:08:37Z._

@@ -48,7 +48,7 @@ x install pipx
 
 ## 流行度
 
-- **Star**: 12,982 · **Fork**: 632 · **开放 issue**: 1,002 · **贡献者**: 293
+- **Star**: 12,985 · **Fork**: 632 · **开放 issue**: 1,002 · **贡献者**: 293
 
 ## 累计统计
 
@@ -58,12 +58,12 @@ x install pipx
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-01 | 33 | 243 | 0 | 85 | 0 | 263 |
-| last60d | 2026-09-01 | 40 | 265 | 0 | 91 | 0 | 293 |
-| 90d | 2026-08-02 | 43 | 290 | 0 | 97 | 0 | 322 |
-| last180d | 2026-05-04 | 57 | 440 | 0 | 117 | 0 | 493 |
-| 360d | 2025-11-05 | 62 | 516 | 0 | 140 | 0 | 577 |
-| last720d | 2024-11-10 | 63 | 545 | 0 | 201 | 0 | 604 |
+| 30d | 2026-10-02 | 32 | 239 | 0 | 84 | 0 | 249 |
+| last60d | 2026-09-02 | 39 | 264 | 0 | 91 | 0 | 288 |
+| 90d | 2026-08-03 | 43 | 289 | 0 | 96 | 0 | 319 |
+| last180d | 2026-05-05 | 57 | 440 | 0 | 117 | 0 | 485 |
+| 360d | 2025-11-06 | 62 | 516 | 0 | 140 | 0 | 577 |
+| last720d | 2024-11-11 | 63 | 545 | 0 | 201 | 0 | 604 |
 
 ## Release 资产
 
@@ -73,7 +73,7 @@ x install pipx
 
 ## 发行版状态
 
-在 [repology.org](https://repology.org/project/pipx) 上共有 **170** 个发行版报告此项目。**3** 个 ✅ 已是最新上游版本，**110** 个 ⚠️ 使用旧版本。
+在 [repology.org](https://repology.org/project/pipx) 上共有 **170** 个发行版报告此项目。**6** 个 ✅ 已是最新上游版本，**107** 个 ⚠️ 使用旧版本。
 
 | 发行版 | 版本 | 状态 |
 |--------|------|------|
@@ -83,8 +83,8 @@ x install pipx
 | Ubuntu 26.04 LTS | `1.8.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.4.3` | ⚠️ outdated |
 | Arch | `1.18.4` | ⚠️ outdated |
-| Homebrew | `1.18.10` | ⚠️ outdated |
-| Fedora rawhide | `1.18.9` | ⚠️ outdated |
+| Homebrew | `1.18.11` | ✅ latest |
+| Fedora rawhide | `1.18.10` | ⚠️ outdated |
 | Nix unstable | `1.16.6` | ⚠️ outdated |
 | Void | `1.17.2` | ⚠️ outdated |
 | Alpine edge | `1.18.4` | ⚠️ outdated |
@@ -99,4 +99,4 @@ pipx 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261031.yml` · 2026-10-31T06:41:35Z._
+_数据快照: `data/card/261101.yml` · 2026-11-01T07:08:38Z._
