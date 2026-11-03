@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/pypa/pipx/releases/429585609",
-  "assets_url": "https://api.github.com/repos/pypa/pipx/releases/429585609/assets",
-  "upload_url": "https://uploads.github.com/repos/pypa/pipx/releases/429585609/assets{?name,label}",
-  "html_url": "https://github.com/pypa/pipx/releases/tag/1.18.11",
-  "id": 429585609,
+  "url": "https://api.github.com/repos/pypa/pipx/releases/432297010",
+  "assets_url": "https://api.github.com/repos/pypa/pipx/releases/432297010/assets",
+  "upload_url": "https://uploads.github.com/repos/pypa/pipx/releases/432297010/assets{?name,label}",
+  "html_url": "https://github.com/pypa/pipx/releases/tag/1.18.12",
+  "id": 432297010,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,21 +25,21 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOCQ1fNs4ZmvTJ",
-  "tag_name": "1.18.11",
-  "target_commitish": "2ccbdf4c879c04f0dda457b47cb6a051146231bb",
-  "name": "1.18.11",
+  "node_id": "RE_kwDOCQ1fNs4ZxFQy",
+  "tag_name": "1.18.12",
+  "target_commitish": "8d7bc566b34a0464b9e233d133663bdd4baf093f",
+  "name": "1.18.12",
   "draft": false,
   "immutable": true,
   "prerelease": false,
-  "created_at": "2026-10-30T23:32:22Z",
-  "updated_at": "2026-10-30T23:34:03Z",
-  "published_at": "2026-10-30T23:34:03Z",
+  "created_at": "2026-11-03T05:01:51Z",
+  "updated_at": "2026-11-03T05:03:41Z",
+  "published_at": "2026-11-03T05:03:41Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/pypa/pipx/releases/assets/693756457",
-      "id": 693756457,
-      "node_id": "RA_kwDOCQ1fNs4pWeIp",
+      "url": "https://api.github.com/repos/pypa/pipx/releases/assets/704369079",
+      "id": 704369079,
+      "node_id": "RA_kwDOCQ1fNs4p-9G3",
       "name": "pipx.pyz",
       "label": "",
       "uploader": {
@@ -65,28 +65,16 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 745256,
-      "digest": "sha256:37282fd4fad8700169a718f2ca8c469dbf4ffbf004972670cb468cf255106f07",
-      "download_count": 2832,
-      "created_at": "2026-10-30T23:34:01Z",
-      "updated_at": "2026-10-30T23:34:02Z",
-      "browser_download_url": "https://github.com/pypa/pipx/releases/download/1.18.11/pipx.pyz"
+      "size": 745441,
+      "digest": "sha256:076a10eff45dbb54a3eb2e5131ce1264eebb4e38c3a0ce58a8cd632da422952e",
+      "download_count": 117,
+      "created_at": "2026-11-03T05:03:39Z",
+      "updated_at": "2026-11-03T05:03:40Z",
+      "browser_download_url": "https://github.com/pypa/pipx/releases/download/1.18.12/pipx.pyz"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/pypa/pipx/tarball/1.18.11",
-  "zipball_url": "https://api.github.com/repos/pypa/pipx/zipball/1.18.11",
-  "body": "<a name=\"release-1-18-11-fixed\"></a>\n\n### Bug fixes\n\n- Fetch fresh standalone Python release data when the cached index is invalid or unreadable ([#2404](https://github.com/pypa/pipx/pull/2404)) by @hemcharan710-afk and @gaborbernat.\n- `pipx pin` now lists the packages it pins without `--injected-only` or `--skip` ([#2405](https://github.com/pypa/pipx/pull/2405)) by @hemcharan710-afk and @gaborbernat.\n\n[PyPI release](https://pypi.org/project/pipx/1.18.11/)\n\n[Full Changelog](https://github.com/pypa/pipx/compare/1.18.10...1.18.11)\n",
-  "reactions": {
-    "url": "https://api.github.com/repos/pypa/pipx/releases/429585609/reactions",
-    "total_count": 1,
-    "+1": 0,
-    "-1": 0,
-    "laugh": 0,
-    "hooray": 1,
-    "confused": 0,
-    "heart": 0,
-    "rocket": 0,
-    "eyes": 0
-  },
-  "mentions_count": 2
+  "tarball_url": "https://api.github.com/repos/pypa/pipx/tarball/1.18.12",
+  "zipball_url": "https://api.github.com/repos/pypa/pipx/zipball/1.18.12",
+  "body": "<a name=\"release-1-18-12-security\"></a>\n\n### Security\n\n- `pipx run` now treats requirements with a version, extras, a marker or a direct URL as packages, and script URLs as downloads, even when the working directory contains a matching file ([#2408](https://github.com/pypa/pipx/pull/2408)) by @gaborbernat.\n\n[🐍 PyPI release](https://pypi.org/project/pipx/1.18.12/)\n\n[📜 Full Changelog](https://github.com/pypa/pipx/compare/1.18.11...1.18.12)\n",
+  "mentions_count": 1
 }
