@@ -14,23 +14,23 @@ x install pipx
 
 ## 代码洞察
 
-合计: **44,455** 行代码（覆盖前 5 种语言、共 **190** 个文件）。
+合计: **44,464** 行代码（覆盖前 5 种语言、共 **190** 个文件）。
 
 | 语言 | 代码 | 注释 | 空行 | 文件数 |
 |------|-----:|-----:|-----:|------:|
-| Python | 34,970 | 911 | 7,481 | 140 |
-| ReStructuredText | 5,734 | 0 | 2,140 | 39 |
-| Toml | 3,394 | 17 | 680 | 8 |
+| Python | 34,969 | 911 | 7,481 | 140 |
+| ReStructuredText | 5,738 | 0 | 2,143 | 39 |
+| Toml | 3,400 | 17 | 682 | 8 |
 | Svg | 246 | 0 | 0 | 2 |
 | Json | 65 | 0 | 0 | 1 |
 
 ## OpenSSF Scorecard 评分
 
-总评分: **7.1 / 10**
+总评分: **7.4 / 10**
 
 评分最低的几项:
 
-- **Code-Review** (0/10) — Found 2/30 approved changesets -- score normalized to 0
+- **Code-Review** (0/10) — Found 2/28 approved changesets -- score normalized to 0
 - **CII-Best-Practices** (2/10) — badge detected: InProgress
 - **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 
@@ -42,34 +42,34 @@ x install pipx
 
 ## 发布
 
-- **最新版本**: `1.18.12` (2026-11-03)
-- **最近提交**: 2026-11-03
+- **最新版本**: `1.18.13` (2026-11-04)
+- **最近提交**: 2026-11-04
 - **Release 含资产**: 1 个
 
 ## 流行度
 
-- **Star**: 12,984 · **Fork**: 631 · **开放 issue**: 1,002 · **贡献者**: 293
+- **Star**: 12,985 · **Fork**: 632 · **开放 issue**: 1,002 · **贡献者**: 293
 
 ## 累计统计
 
-- **发布数**: 105 · **已合并 PR**: 1163 · **开放 PR**: 0 · **已关闭 issue**: 1002 · **开放 issue**: 0 · **提交数**: 1428
+- **发布数**: 106 · **已合并 PR**: 1166 · **开放 PR**: 0 · **已关闭 issue**: 1002 · **开放 issue**: 0 · **提交数**: 1432
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-04 | 30 | 243 | 0 | 82 | 0 | 255 |
-| last60d | 2026-09-04 | 39 | 269 | 0 | 91 | 0 | 294 |
-| 90d | 2026-08-05 | 42 | 293 | 0 | 96 | 0 | 325 |
-| last180d | 2026-05-07 | 55 | 444 | 0 | 117 | 0 | 491 |
-| 360d | 2025-11-08 | 62 | 521 | 0 | 140 | 0 | 583 |
-| last720d | 2024-11-13 | 63 | 550 | 0 | 200 | 0 | 610 |
+| 30d | 2026-10-05 | 30 | 245 | 0 | 82 | 0 | 259 |
+| last60d | 2026-09-05 | 39 | 272 | 0 | 91 | 0 | 298 |
+| 90d | 2026-08-06 | 42 | 296 | 0 | 96 | 0 | 329 |
+| last180d | 2026-05-08 | 55 | 447 | 0 | 116 | 0 | 495 |
+| 360d | 2025-11-09 | 62 | 524 | 0 | 140 | 0 | 587 |
+| last720d | 2024-11-14 | 63 | 553 | 0 | 199 | 0 | 614 |
 
 ## Release 资产
 
 | 资产 | 大小 | 目标平台 |
 |------|-----:|----------|
-| [pipx.pyz](https://github.com/pypa/pipx/releases/download/1.18.12/pipx.pyz) | 728.0 KiB | `other` |
+| [pipx.pyz](https://github.com/pypa/pipx/releases/download/1.18.13/pipx.pyz) | 728.0 KiB | `other` |
 
 ## 发行版状态
 
@@ -83,7 +83,7 @@ x install pipx
 | Ubuntu 26.04 LTS | `1.8.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.4.3` | ⚠️ outdated |
 | Arch | `1.18.4` | ⚠️ outdated |
-| Homebrew | `1.18.11` | ⚠️ outdated |
+| Homebrew | `1.18.12` | ⚠️ outdated |
 | Fedora rawhide | `1.18.11` | ⚠️ outdated |
 | Nix unstable | `1.16.6` | ⚠️ outdated |
 | Void | `1.17.2` | ⚠️ outdated |
@@ -99,4 +99,4 @@ pipx 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261103.yml` · 2026-11-03T07:50:10Z._
+_数据快照: `data/card/261104.yml` · 2026-11-04T07:29:46Z._
