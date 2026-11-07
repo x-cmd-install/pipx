@@ -14,13 +14,13 @@ x install pipx
 
 ## Code insight
 
-Total: **44,115** lines of code across **188** files in the top 5 languages.
+Total: **44,158** lines of code across **187** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 34,611 | 911 | 7,440 | 137 |
-| ReStructuredText | 5,751 | 0 | 2,151 | 40 |
-| Toml | 3,396 | 17 | 682 | 8 |
+| Python | 34,643 | 911 | 7,444 | 137 |
+| ReStructuredText | 5,762 | 0 | 2,157 | 39 |
+| Toml | 3,396 | 18 | 682 | 8 |
 | Svg | 246 | 0 | 0 | 2 |
 | Json | 65 | 0 | 0 | 1 |
 
@@ -30,9 +30,9 @@ Overall score: **7.6 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (2/10) — Found 6/28 approved changesets -- score normalized to 2
-- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
+- **Code-Review** (2/10) — Found 7/28 approved changesets -- score normalized to 2
 - **Fuzzing** (0/10) — project is not fuzzed
+- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 
 ## Source
 
@@ -42,38 +42,38 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `1.18.14` (2026-11-05)
-- **Last commit**: 2026-11-06
+- **Latest**: `1.18.15` (2026-11-06)
+- **Last commit**: 2026-11-07
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 12,987 · **Forks**: 636 · **Open issues**: 1,004 · **Contributors**: 296
+- **Stars**: 12,987 · **Forks**: 639 · **Open issues**: 1,007 · **Contributors**: 297
 
 ## Totals (cumulative)
 
-- **Releases**: 107 · **Merged PRs**: 1173 · **Open PRs**: 0 · **Closed issues**: 1004 · **Open issues**: 0 · **Commits**: 1440
+- **Releases**: 108 · **Merged PRs**: 1179 · **Open PRs**: 1 · **Closed issues**: 1005 · **Open issues**: 2 · **Commits**: 1447
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-07 | 30 | 248 | 0 | 81 | 0 | 267 |
-| last60d | 2026-09-07 | 39 | 278 | 0 | 92 | 0 | 306 |
-| 90d | 2026-08-08 | 42 | 303 | 0 | 98 | 0 | 337 |
-| last180d | 2026-05-10 | 55 | 454 | 0 | 118 | 0 | 503 |
-| 360d | 2025-11-11 | 62 | 530 | 0 | 142 | 0 | 595 |
-| last720d | 2024-11-16 | 63 | 560 | 0 | 201 | 0 | 622 |
+| 30d | 2026-10-08 | 29 | 254 | 1 | 81 | 2 | 274 |
+| last60d | 2026-09-08 | 39 | 283 | 1 | 93 | 2 | 313 |
+| 90d | 2026-08-09 | 42 | 309 | 1 | 99 | 2 | 344 |
+| last180d | 2026-05-11 | 55 | 458 | 1 | 119 | 2 | 510 |
+| 360d | 2025-11-12 | 62 | 536 | 1 | 143 | 2 | 602 |
+| last720d | 2024-11-17 | 63 | 566 | 1 | 202 | 2 | 629 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [pipx.pyz](https://github.com/pypa/pipx/releases/download/1.18.14/pipx.pyz) | 728.1 KiB | `other` |
+| [pipx.pyz](https://github.com/pypa/pipx/releases/download/1.18.15/pipx.pyz) | 728.3 KiB | `other` |
 
 ## Distribution status
 
-Reported by **170** distros on [repology.org](https://repology.org/project/pipx). **3** are ✅ on the latest upstream release, **110** are ⚠️ on an older version.
+Reported by **171** distros on [repology.org](https://repology.org/project/pipx). **4** are ✅ on the latest upstream release, **110** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -83,7 +83,7 @@ Reported by **170** distros on [repology.org](https://repology.org/project/pipx)
 | Ubuntu 26.04 LTS | `1.8.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.4.3` | ⚠️ outdated |
 | Arch | `1.18.4` | ⚠️ outdated |
-| Homebrew | `1.18.13` | ⚠️ outdated |
+| Homebrew | `1.18.14` | ⚠️ outdated |
 | Fedora rawhide | `1.18.13` | ⚠️ outdated |
 | Nix unstable | `1.16.6` | ⚠️ outdated |
 | Void | `1.17.2` | ⚠️ outdated |
@@ -99,4 +99,4 @@ Install metadata for pipx lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261106.yml` · 2026-11-06T07:38:48Z._
+_Snapshot: `data/card/261107.yml` · 2026-11-07T06:58:02Z._
