@@ -20,7 +20,7 @@ Total: **46,821** lines of code across **188** files in the top 5 languages.
 |----------|-----:|---------:|-------:|------:|
 | Python | 37,182 | 975 | 7,537 | 137 |
 | ReStructuredText | 5,791 | 0 | 2,170 | 40 |
-| Toml | 3,491 | 20 | 704 | 8 |
+| Toml | 3,491 | 19 | 704 | 8 |
 | Svg | 246 | 0 | 0 | 2 |
 | Json | 65 | 0 | 0 | 1 |
 
@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 12,993 · **Forks**: 641 · **Open issues**: 1,009 · **Contributors**: 297
+- **Stars**: 12,999 · **Forks**: 641 · **Open issues**: 1,010 · **Contributors**: 297
 
 ## Totals (cumulative)
 
-- **Releases**: 109 · **Merged PRs**: 1184 · **Open PRs**: 3 · **Closed issues**: 1008 · **Open issues**: 1 · **Commits**: 1453
+- **Releases**: 109 · **Merged PRs**: 1184 · **Open PRs**: 4 · **Closed issues**: 1008 · **Open issues**: 2 · **Commits**: 1454
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-11 | 28 | 256 | 3 | 83 | 1 | 0 |
-| last60d | 2026-09-11 | 39 | 287 | 3 | 96 | 1 | 0 |
-| 90d | 2026-08-12 | 42 | 310 | 3 | 102 | 1 | 0 |
-| last180d | 2026-05-14 | 55 | 463 | 3 | 121 | 1 | 0 |
-| 360d | 2025-11-15 | 62 | 541 | 3 | 146 | 1 | 0 |
-| last720d | 2024-11-20 | 63 | 571 | 3 | 205 | 1 | 635 |
+| 30d | 2026-10-12 | 28 | 252 | 4 | 81 | 2 | 206 |
+| last60d | 2026-09-12 | 39 | 287 | 4 | 96 | 2 | 319 |
+| 90d | 2026-08-13 | 42 | 308 | 4 | 102 | 2 | 344 |
+| last180d | 2026-05-15 | 55 | 463 | 4 | 121 | 2 | 517 |
+| 360d | 2025-11-16 | 62 | 541 | 4 | 146 | 2 | 608 |
+| last720d | 2024-11-21 | 63 | 571 | 4 | 204 | 2 | 636 |
 
 ## Release assets
 
@@ -73,7 +73,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **170** distros on [repology.org](https://repology.org/project/pipx). **11** are ✅ on the latest upstream release, **102** are ⚠️ on an older version.
+Reported by **171** distros on [repology.org](https://repology.org/project/pipx). **13** are ✅ on the latest upstream release, **101** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -99,4 +99,4 @@ Install metadata for pipx lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261110.yml` · 2026-11-10T08:23:46Z._
+_Snapshot: `data/card/261111.yml` · 2026-11-11T07:21:45Z._
