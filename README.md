@@ -48,7 +48,7 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,001 · **Forks**: 647 · **Open issues**: 1,013 · **Contributors**: 297
+- **Stars**: 13,004 · **Forks**: 653 · **Open issues**: 1,013 · **Contributors**: 297
 
 ## Totals (cumulative)
 
@@ -58,12 +58,12 @@ Lowest-scoring checks:
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-15 | 27 | 194 | 6 | 79 | 5 | 210 |
-| last60d | 2026-09-15 | 39 | 287 | 6 | 96 | 5 | 323 |
-| 90d | 2026-08-16 | 41 | 310 | 6 | 100 | 5 | 348 |
-| last180d | 2026-05-18 | 55 | 466 | 6 | 121 | 5 | 521 |
-| 360d | 2025-11-19 | 62 | 544 | 6 | 144 | 5 | 612 |
-| last720d | 2024-11-24 | 63 | 575 | 6 | 204 | 5 | 639 |
+| 30d | 2026-10-16 | 25 | 191 | 6 | 78 | 5 | 210 |
+| last60d | 2026-09-16 | 39 | 287 | 6 | 96 | 5 | 323 |
+| 90d | 2026-08-17 | 41 | 309 | 6 | 100 | 5 | 348 |
+| last180d | 2026-05-19 | 55 | 466 | 6 | 121 | 5 | 521 |
+| 360d | 2025-11-20 | 62 | 544 | 6 | 144 | 5 | 612 |
+| last720d | 2024-11-25 | 63 | 575 | 6 | 204 | 5 | 639 |
 
 ## Release assets
 
@@ -73,7 +73,7 @@ Lowest-scoring checks:
 
 ## Distribution status
 
-Reported by **171** distros on [repology.org](https://repology.org/project/pipx). **14** are ✅ on the latest upstream release, **100** are ⚠️ on an older version.
+Reported by **171** distros on [repology.org](https://repology.org/project/pipx). **15** are ✅ on the latest upstream release, **99** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
@@ -99,4 +99,4 @@ Install metadata for pipx lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261114.yml` · 2026-11-14T07:44:28Z._
+_Snapshot: `data/card/261115.yml` · 2026-11-15T07:46:52Z._
