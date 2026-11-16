@@ -30,9 +30,9 @@ x install pipx
 
 评分最低的几项:
 
-- **Code-Review** (2/10) — Found 6/28 approved changesets -- score normalized to 2
+- **Code-Review** (2/10) — Found 6/29 approved changesets -- score normalized to 2
 - **Pinned-Dependencies** (2/10) — dependency not pinned by hash detected -- score normalized to 2
-- **Fuzzing** (0/10) — project is not fuzzed
+- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 
 ## 源代码
 
@@ -43,27 +43,27 @@ x install pipx
 ## 发布
 
 - **最新版本**: `1.18.16` (2026-11-07)
-- **最近提交**: 2026-11-13
+- **最近提交**: 2026-11-16
 - **Release 含资产**: 1 个
 
 ## 流行度
 
-- **Star**: 13,004 · **Fork**: 653 · **开放 issue**: 1,013 · **贡献者**: 297
+- **Star**: 13,004 · **Fork**: 706 · **开放 issue**: 1,015 · **贡献者**: 297
 
 ## 累计统计
 
-- **发布数**: 109 · **已合并 PR**: 1188 · **开放 PR**: 6 · **已关闭 issue**: 1008 · **开放 issue**: 5 · **提交数**: 1458
+- **发布数**: 109 · **已合并 PR**: 1189 · **开放 PR**: 11 · **已关闭 issue**: 1008 · **开放 issue**: 7 · **提交数**: 1459
 
 ## 最近活动
 
 | 时间窗口 | 起始 | 发布 | 已合并 PR | 开放 PR | 已关闭 issue | 开放 issue | 提交 |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 25 | 191 | 6 | 78 | 5 | 210 |
-| last60d | 2026-09-16 | 39 | 287 | 6 | 96 | 5 | 323 |
-| 90d | 2026-08-17 | 41 | 309 | 6 | 100 | 5 | 348 |
-| last180d | 2026-05-19 | 55 | 466 | 6 | 121 | 5 | 521 |
-| 360d | 2025-11-20 | 62 | 544 | 6 | 144 | 5 | 612 |
-| last720d | 2024-11-25 | 63 | 575 | 6 | 204 | 5 | 639 |
+| 30d | 2026-10-17 | 24 | 191 | 11 | 76 | 7 | 199 |
+| last60d | 2026-09-17 | 38 | 290 | 11 | 96 | 7 | 307 |
+| 90d | 2026-08-18 | 41 | 312 | 11 | 100 | 7 | 345 |
+| last180d | 2026-05-20 | 55 | 469 | 11 | 121 | 7 | 521 |
+| 360d | 2025-11-21 | 62 | 547 | 11 | 144 | 7 | 612 |
+| last720d | 2024-11-26 | 63 | 578 | 11 | 202 | 7 | 640 |
 
 ## Release 资产
 
@@ -99,4 +99,4 @@ pipx 的安装元数据由 [x-cmd/install](https://github.com/x-cmd/install) 索
 
 本页面的数据（card / loc / scorecard / release）由 [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) 自动采集，每日重新生成。**安装行为**（版本选择、平台差异、依赖处理）的改进应提交到上游索引。
 
-_数据快照: `data/card/261115.yml` · 2026-11-15T07:46:52Z._
+_数据快照: `data/card/261116.yml` · 2026-11-16T08:13:09Z._

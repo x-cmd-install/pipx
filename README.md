@@ -30,9 +30,9 @@ Overall score: **7.2 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (2/10) — Found 6/28 approved changesets -- score normalized to 2
+- **Code-Review** (2/10) — Found 6/29 approved changesets -- score normalized to 2
 - **Pinned-Dependencies** (2/10) — dependency not pinned by hash detected -- score normalized to 2
-- **Fuzzing** (0/10) — project is not fuzzed
+- **Signed-Releases** (0/10) — Project has not signed or included provenance with any releases.
 
 ## Source
 
@@ -43,27 +43,27 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.18.16` (2026-11-07)
-- **Last commit**: 2026-11-13
+- **Last commit**: 2026-11-16
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 13,004 · **Forks**: 653 · **Open issues**: 1,013 · **Contributors**: 297
+- **Stars**: 13,004 · **Forks**: 706 · **Open issues**: 1,015 · **Contributors**: 297
 
 ## Totals (cumulative)
 
-- **Releases**: 109 · **Merged PRs**: 1188 · **Open PRs**: 6 · **Closed issues**: 1008 · **Open issues**: 5 · **Commits**: 1458
+- **Releases**: 109 · **Merged PRs**: 1189 · **Open PRs**: 11 · **Closed issues**: 1008 · **Open issues**: 7 · **Commits**: 1459
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-16 | 25 | 191 | 6 | 78 | 5 | 210 |
-| last60d | 2026-09-16 | 39 | 287 | 6 | 96 | 5 | 323 |
-| 90d | 2026-08-17 | 41 | 309 | 6 | 100 | 5 | 348 |
-| last180d | 2026-05-19 | 55 | 466 | 6 | 121 | 5 | 521 |
-| 360d | 2025-11-20 | 62 | 544 | 6 | 144 | 5 | 612 |
-| last720d | 2024-11-25 | 63 | 575 | 6 | 204 | 5 | 639 |
+| 30d | 2026-10-17 | 24 | 191 | 11 | 76 | 7 | 199 |
+| last60d | 2026-09-17 | 38 | 290 | 11 | 96 | 7 | 307 |
+| 90d | 2026-08-18 | 41 | 312 | 11 | 100 | 7 | 345 |
+| last180d | 2026-05-20 | 55 | 469 | 11 | 121 | 7 | 521 |
+| 360d | 2025-11-21 | 62 | 547 | 11 | 144 | 7 | 612 |
+| last720d | 2024-11-26 | 63 | 578 | 11 | 202 | 7 | 640 |
 
 ## Release assets
 
@@ -99,4 +99,4 @@ Install metadata for pipx lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261115.yml` · 2026-11-15T07:46:52Z._
+_Snapshot: `data/card/261116.yml` · 2026-11-16T08:13:08Z._
