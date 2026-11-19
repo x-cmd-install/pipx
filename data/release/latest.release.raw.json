@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/pypa/pipx/releases/448000796",
-  "assets_url": "https://api.github.com/repos/pypa/pipx/releases/448000796/assets",
-  "upload_url": "https://uploads.github.com/repos/pypa/pipx/releases/448000796/assets{?name,label}",
-  "html_url": "https://github.com/pypa/pipx/releases/tag/1.18.18",
-  "id": 448000796,
+  "url": "https://api.github.com/repos/pypa/pipx/releases/448808612",
+  "assets_url": "https://api.github.com/repos/pypa/pipx/releases/448808612/assets",
+  "upload_url": "https://uploads.github.com/repos/pypa/pipx/releases/448808612/assets{?name,label}",
+  "html_url": "https://github.com/pypa/pipx/releases/tag/1.18.19",
+  "id": 448808612,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,21 +25,21 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOCQ1fNs4as_Mc",
-  "tag_name": "1.18.18",
+  "node_id": "RE_kwDOCQ1fNs4awEak",
+  "tag_name": "1.18.19",
   "target_commitish": "main",
-  "name": "1.18.18",
+  "name": "1.18.19",
   "draft": false,
   "immutable": true,
   "prerelease": false,
-  "created_at": "2026-11-17T02:32:58Z",
-  "updated_at": "2026-11-17T02:34:37Z",
-  "published_at": "2026-11-17T02:34:37Z",
+  "created_at": "2026-11-17T15:15:46Z",
+  "updated_at": "2026-11-17T15:17:22Z",
+  "published_at": "2026-11-17T15:17:22Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/pypa/pipx/releases/assets/757320178",
-      "id": 757320178,
-      "node_id": "RA_kwDOCQ1fNs4tI8ny",
+      "url": "https://api.github.com/repos/pypa/pipx/releases/assets/759546248",
+      "id": 759546248,
+      "node_id": "RA_kwDOCQ1fNs4tRcGI",
       "name": "pipx.pyz",
       "label": "",
       "uploader": {
@@ -65,28 +65,28 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 900975,
-      "digest": "sha256:c4d92ff7b12360b5e883c50ef4c555240eb596130d09c940e05ab2afdd937a06",
-      "download_count": 460,
-      "created_at": "2026-11-17T02:34:36Z",
-      "updated_at": "2026-11-17T02:34:36Z",
-      "browser_download_url": "https://github.com/pypa/pipx/releases/download/1.18.18/pipx.pyz"
+      "size": 901247,
+      "digest": "sha256:a3186d9ed60b86f060b9e6747e1722db33160240eac83db805b4945a0d2173b0",
+      "download_count": 3848,
+      "created_at": "2026-11-17T15:17:20Z",
+      "updated_at": "2026-11-17T15:17:21Z",
+      "browser_download_url": "https://github.com/pypa/pipx/releases/download/1.18.19/pipx.pyz"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/pypa/pipx/tarball/1.18.18",
-  "zipball_url": "https://api.github.com/repos/pypa/pipx/zipball/1.18.18",
-  "body": "<a name=\"release-1-18-18-fixed\"></a>\n\n### Bug fixes\n\n- Pressing Ctrl-C during a command that works on several environments at once, such as `pipx upgrade-all`, could hang pipx forever; it now stops ([#2473](https://github.com/pypa/pipx/pull/2473)) by @gaborbernat.\n\n[🐍 PyPI release](https://pypi.org/project/pipx/1.18.18/)\n\n[📜 Full Changelog](https://github.com/pypa/pipx/compare/1.18.17...1.18.18)\n",
+  "tarball_url": "https://api.github.com/repos/pypa/pipx/tarball/1.18.19",
+  "zipball_url": "https://api.github.com/repos/pypa/pipx/zipball/1.18.19",
+  "body": "<a name=\"release-1-18-19-fixed\"></a>\n\n### Bug fixes\n\n- `pipx uninject` no longer removes a dependency the main package always needs, such as one marked `extra != \"cli\"`, when that package declares extras, and `pipx install --include-deps` with an extra now exposes the apps of such a dependency ([#2476](https://github.com/pypa/pipx/pull/2476)) by @hemtilva and @gaborbernat.\n\n[🐍 PyPI release](https://pypi.org/project/pipx/1.18.19/)\n\n[📜 Full Changelog](https://github.com/pypa/pipx/compare/1.18.18...1.18.19)\n",
   "reactions": {
-    "url": "https://api.github.com/repos/pypa/pipx/releases/448000796/reactions",
-    "total_count": 1,
+    "url": "https://api.github.com/repos/pypa/pipx/releases/448808612/reactions",
+    "total_count": 3,
     "+1": 0,
     "-1": 0,
     "laugh": 0,
-    "hooray": 1,
+    "hooray": 2,
     "confused": 0,
-    "heart": 0,
+    "heart": 1,
     "rocket": 0,
     "eyes": 0
   },
-  "mentions_count": 1
+  "mentions_count": 2
 }
