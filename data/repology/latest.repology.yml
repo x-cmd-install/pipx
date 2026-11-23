@@ -2,51 +2,6 @@
   subrepo: dev
   binname: pipx
   visiblename: pipx
-  version: 1.17.14
-  origversion: 1.17.14-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.17.13
-  origversion: 1.17.13-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.17.12
-  origversion: 1.17.12-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.17.11
-  origversion: 1.17.11-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.17.10
-  origversion: 1.17.10-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
   version: 1.17.9
   origversion: 1.17.9-1~ops2deb
   status: legacy
@@ -97,213 +52,34 @@
   status: legacy
   maintainers:
     - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.17.3
-  origversion: 1.17.3-1~ops2deb
-  status: legacy
+- repo: deepin_25
+  subrepo: main
+  srcname: python-pipx
+  binnames:
+    - pipx
+  visiblename: python-pipx
+  version: 1.2.1
+  origversion: 1.2.1-1
+  status: outdated
   maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.17.2
-  origversion: 1.17.2-1~ops2deb
-  status: legacy
+    - team+python@tracker.debian.org
+    - stefanor@debian.org
+  categories:
+    - python
+- repo: devuan_unstable
+  subrepo: unstable/main
+  srcname: python-pipx
+  binnames:
+    - pipx
+  visiblename: python-pipx
+  version: 1.18.16
+  origversion: 1.18.16-1
+  status: outdated
   maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.17.1
-  origversion: 1.17.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.16.7
-  origversion: 1.16.7-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.16.6
-  origversion: 1.16.6-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.16.5
-  origversion: 1.16.5-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.16.4
-  origversion: 1.16.4-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.16.3
-  origversion: 1.16.3-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.16.2
-  origversion: 1.16.2-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.16.1
-  origversion: 1.16.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.16.0
-  origversion: 1.16.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.15.0
-  origversion: 1.15.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.14.1
-  origversion: 1.14.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.14.0
-  origversion: 1.14.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.13.0
-  origversion: 1.13.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.12.0
-  origversion: 1.12.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.11.2
-  origversion: 1.11.2-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.11.1
-  origversion: 1.11.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.11.0
-  origversion: 1.11.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.10.1
-  origversion: 1.10.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.10.0
-  origversion: 1.10.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.8.0
-  origversion: 1.8.0-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
-- repo: wakemeops
-  subrepo: dev
-  binname: pipx
-  visiblename: pipx
-  version: 1.7.1
-  origversion: 1.7.1-1~ops2deb
-  status: legacy
-  maintainers:
-    - ops2deb@upciti.com
+    - team+python@tracker.debian.org
+    - stefanor@debian.org
+  categories:
+    - misc
 - repo: alpine_3_19
   subrepo: community
   srcname: pipx
@@ -369,19 +145,6 @@
     - fossdd@pwned.life
   licenses:
     - MIT
-- repo: pureos_amber
-  subrepo: amber/main
-  srcname: python-pipx
-  binnames:
-    - pipx
-  visiblename: python-pipx
-  version: 0.12.1.0
-  origversion: 0.12.1.0-1
-  status: outdated
-  maintainers:
-    - dr@jones.dk
-  categories:
-    - python
 - repo: alpine_3_21
   subrepo: community
   srcname: pipx
@@ -565,6 +328,17 @@
   summary: Install and Run Python Applications in Isolated Environments
   licenses:
     - MIT
+- repo: nix_stable_25_11
+  srcname: pipx
+  visiblename: pipx
+  version: 1.8.0
+  origversion: null
+  status: outdated
+  summary: Install and run Python applications in isolated environments
+  maintainers:
+    - yshym@pm.me
+  licenses:
+    - MIT
 - repo: aur
   srcname: python-pipx-git
   binname: python-pipx-git
@@ -696,21 +470,6 @@
     - stefanor@debian.org
   categories:
     - misc
-- repo: fedora_42
-  subrepo: updates
-  srcname: pipx
-  binnames:
-    - pipx
-    - pipx+uv
-  visiblename: pipx
-  version: 1.12.0
-  origversion: 1.12.0-1.fc42
-  status: outdated
-  summary: Install and run Python applications in isolated environments
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
 - repo: debian_13
   subrepo: trixie/main
   srcname: python-pipx
@@ -767,34 +526,6 @@
     - stefanor@debian.org
   categories:
     - python
-- repo: deepin_25
-  subrepo: main
-  srcname: python-pipx
-  binnames:
-    - pipx
-  visiblename: python-pipx
-  version: 1.2.1
-  origversion: 1.2.1-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - stefanor@debian.org
-  categories:
-    - python
-- repo: devuan_unstable
-  subrepo: unstable/main
-  srcname: python-pipx
-  binnames:
-    - pipx
-  visiblename: python-pipx
-  version: 1.18.16
-  origversion: 1.18.16-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - stefanor@debian.org
-  categories:
-    - misc
 - repo: epel_10
   srcname: pipx
   binnames:
@@ -822,20 +553,6 @@
   categories:
     - dev-python
 - repo: fedora_39
-  subrepo: updates
-  srcname: pipx
-  binnames:
-    - pipx
-  visiblename: pipx
-  version: 1.7.1
-  origversion: 1.7.1-1.fc39
-  status: outdated
-  summary: Install and run Python applications in isolated environments
-  licenses:
-    - MIT
-  categories:
-    - Unspecified
-- repo: fedora_39
   subrepo: release
   srcname: pipx
   binnames:
@@ -849,15 +566,15 @@
     - MIT
   categories:
     - Unspecified
-- repo: fedora_40
-  subrepo: release
+- repo: fedora_39
+  subrepo: updates
   srcname: pipx
   binnames:
     - pipx
   visiblename: pipx
-  version: 1.4.3
-  origversion: 1.4.3-3.fc40
-  status: legacy
+  version: 1.7.1
+  origversion: 1.7.1-1.fc39
+  status: outdated
   summary: Install and run Python applications in isolated environments
   licenses:
     - MIT
@@ -877,14 +594,14 @@
     - MIT
   categories:
     - Unspecified
-- repo: fedora_41
+- repo: fedora_40
   subrepo: release
   srcname: pipx
   binnames:
     - pipx
   visiblename: pipx
-  version: 1.7.1
-  origversion: 1.7.1-1.fc41
+  version: 1.4.3
+  origversion: 1.4.3-3.fc40
   status: legacy
   summary: Install and run Python applications in isolated environments
   licenses:
@@ -905,6 +622,20 @@
     - MIT
   categories:
     - Unspecified
+- repo: fedora_41
+  subrepo: release
+  srcname: pipx
+  binnames:
+    - pipx
+  visiblename: pipx
+  version: 1.7.1
+  origversion: 1.7.1-1.fc41
+  status: legacy
+  summary: Install and run Python applications in isolated environments
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
 - repo: fedora_42
   subrepo: release
   srcname: pipx
@@ -919,15 +650,16 @@
     - MIT
   categories:
     - Unspecified
-- repo: fedora_43
-  subrepo: release
+- repo: fedora_42
+  subrepo: updates
   srcname: pipx
   binnames:
     - pipx
+    - pipx+uv
   visiblename: pipx
-  version: 1.7.1
-  origversion: 1.7.1-10.fc43
-  status: legacy
+  version: 1.12.0
+  origversion: 1.12.0-1.fc42
+  status: outdated
   summary: Install and run Python applications in isolated environments
   licenses:
     - MIT
@@ -948,16 +680,15 @@
     - MIT
   categories:
     - Unspecified
-- repo: fedora_44
-  subrepo: updates
+- repo: fedora_43
+  subrepo: release
   srcname: pipx
   binnames:
     - pipx
-    - pipx+uv
   visiblename: pipx
-  version: 1.18.12
-  origversion: 1.18.12-1.fc44
-  status: outdated
+  version: 1.7.1
+  origversion: 1.7.1-10.fc43
+  status: legacy
   summary: Install and run Python applications in isolated environments
   licenses:
     - MIT
@@ -972,6 +703,21 @@
   version: 1.11.0
   origversion: 1.11.0-1.fc44
   status: legacy
+  summary: Install and run Python applications in isolated environments
+  licenses:
+    - MIT
+  categories:
+    - Unspecified
+- repo: fedora_44
+  subrepo: updates
+  srcname: pipx
+  binnames:
+    - pipx
+    - pipx+uv
+  visiblename: pipx
+  version: 1.18.12
+  origversion: 1.18.12-1.fc44
+  status: outdated
   summary: Install and run Python applications in isolated environments
   licenses:
     - MIT
@@ -1070,17 +816,6 @@
     - stefanor@debian.org
   categories:
     - misc
-- repo: nix_stable_25_05
-  srcname: pipx
-  visiblename: pipx
-  version: 1.7.1
-  origversion: null
-  status: outdated
-  summary: Install and run Python applications in isolated environments
-  maintainers:
-    - yshym@pm.me
-  licenses:
-    - MIT
 - repo: liguros_stable
   srcname: dev-python/pipx
   visiblename: dev-python/pipx
@@ -1098,9 +833,9 @@
   srcname: python/pipx
   binname: pipx
   visiblename: pipx
-  version: 1.18.11
+  version: 1.18.19
   origversion: null
-  status: outdated
+  status: newest
   summary: Execute binaries from Python packages in isolated environments
   maintainers:
     - mndavidoff@github
@@ -1209,19 +944,6 @@
   categories:
     - python311Packages
 - repo: nix_stable_24_11
-  srcname: python312Packages.pipx
-  visiblename: python3.12-pipx
-  version: 1.7.1
-  origversion: null
-  status: outdated
-  summary: Install and run Python applications in isolated environments
-  maintainers:
-    - yshym@pm.me
-  licenses:
-    - MIT
-  categories:
-    - python312Packages
-- repo: nix_stable_24_11
   srcname: pipx
   visiblename: pipx
   version: 1.7.1
@@ -1245,6 +967,19 @@
     - MIT
   categories:
     - python311Packages
+- repo: nix_stable_24_11
+  srcname: python312Packages.pipx
+  visiblename: python3.12-pipx
+  version: 1.7.1
+  origversion: null
+  status: outdated
+  summary: Install and run Python applications in isolated environments
+  maintainers:
+    - yshym@pm.me
+  licenses:
+    - MIT
+  categories:
+    - python312Packages
 - repo: nix_stable_25_05
   srcname: python312Packages.pipx
   visiblename: python3.12-pipx
@@ -1259,6 +994,17 @@
   categories:
     - python312Packages
 - repo: nix_stable_25_05
+  srcname: pipx
+  visiblename: pipx
+  version: 1.7.1
+  origversion: null
+  status: outdated
+  summary: Install and run Python applications in isolated environments
+  maintainers:
+    - yshym@pm.me
+  licenses:
+    - MIT
+- repo: nix_stable_25_05
   srcname: python313Packages.pipx
   visiblename: python3.13-pipx
   version: 1.7.1
@@ -1272,8 +1018,8 @@
   categories:
     - python313Packages
 - repo: nix_stable_25_11
-  srcname: pipx
-  visiblename: pipx
+  srcname: python313Packages.pipx
+  visiblename: python3.13-pipx
   version: 1.8.0
   origversion: null
   status: outdated
@@ -1282,6 +1028,8 @@
     - yshym@pm.me
   licenses:
     - MIT
+  categories:
+    - python313Packages
 - repo: nix_stable_25_11
   srcname: python312Packages.pipx
   visiblename: python3.12-pipx
@@ -1295,10 +1043,10 @@
     - MIT
   categories:
     - python312Packages
-- repo: nix_stable_25_11
+- repo: nix_stable_26_05
   srcname: python313Packages.pipx
-  visiblename: python3.13-pipx
-  version: 1.8.0
+  visiblename: pipx
+  version: 1.14.0
   origversion: null
   status: outdated
   summary: Install and run Python applications in isolated environments
@@ -1308,6 +1056,17 @@
     - MIT
   categories:
     - python313Packages
+- repo: nix_stable_26_05
+  srcname: pipx
+  visiblename: pipx
+  version: 1.14.0
+  origversion: null
+  status: outdated
+  summary: Install and run Python applications in isolated environments
+  maintainers:
+    - yshym@pm.me
+  licenses:
+    - MIT
 - repo: nix_stable_26_05
   srcname: python314Packages.pipx
   visiblename: pipx
@@ -1321,54 +1080,6 @@
     - MIT
   categories:
     - python314Packages
-- repo: nix_stable_26_05
-  srcname: pipx
-  visiblename: pipx
-  version: 1.14.0
-  origversion: null
-  status: outdated
-  summary: Install and run Python applications in isolated environments
-  maintainers:
-    - yshym@pm.me
-  licenses:
-    - MIT
-- repo: nix_stable_26_05
-  srcname: python313Packages.pipx
-  visiblename: pipx
-  version: 1.14.0
-  origversion: null
-  status: outdated
-  summary: Install and run Python applications in isolated environments
-  maintainers:
-    - yshym@pm.me
-  licenses:
-    - MIT
-  categories:
-    - python313Packages
-- repo: nix_unstable
-  srcname: pipx
-  visiblename: pipx
-  version: 1.16.6
-  origversion: null
-  status: outdated
-  summary: Install and run Python applications in isolated environments
-  maintainers:
-    - yshym@pm.me
-  licenses:
-    - MIT
-- repo: nix_unstable
-  srcname: python313Packages.pipx
-  visiblename: pipx
-  version: 1.16.6
-  origversion: null
-  status: outdated
-  summary: Install and run Python applications in isolated environments
-  maintainers:
-    - yshym@pm.me
-  licenses:
-    - MIT
-  categories:
-    - python313Packages
 - repo: nix_unstable
   srcname: python314Packages.pipx
   visiblename: pipx
@@ -1382,6 +1093,30 @@
     - MIT
   categories:
     - python314Packages
+- repo: nix_unstable
+  srcname: pipx
+  visiblename: pipx
+  version: 1.16.6
+  origversion: null
+  status: outdated
+  summary: Install and run Python applications in isolated environments
+  maintainers:
+    - yshym@pm.me
+  licenses:
+    - MIT
+- repo: nix_unstable
+  srcname: python313Packages.pipx
+  visiblename: pipx
+  version: 1.16.6
+  origversion: null
+  status: outdated
+  summary: Install and run Python applications in isolated environments
+  maintainers:
+    - yshym@pm.me
+  licenses:
+    - MIT
+  categories:
+    - python313Packages
 - repo: openbsd
   srcname: sysutils/py-pipx
   binname: py3-pipx
@@ -1410,6 +1145,20 @@
     - MIT
   categories:
     - Development/Python
+- repo: ubuntu_22_04
+  subrepo: jammy/universe
+  srcname: python-pipx
+  binnames:
+    - pipx
+  visiblename: python-pipx
+  version: 1.0.0
+  origversion: 1.0.0-1
+  status: outdated
+  maintainers:
+    - team+python@tracker.debian.org
+    - stefanor@debian.org
+  categories:
+    - universe/misc
 - repo: openmandriva_cooker
   subrepo: main/release
   srcname: python-pipx
@@ -1587,6 +1336,19 @@
     - pkgsrc-users@netbsd.org
   categories:
     - devel
+- repo: pureos_amber
+  subrepo: amber/main
+  srcname: python-pipx
+  binnames:
+    - pipx
+  visiblename: python-pipx
+  version: 0.12.1.0
+  origversion: 0.12.1.0-1
+  status: outdated
+  maintainers:
+    - dr@jones.dk
+  categories:
+    - python
 - repo: pureos_landing
   subrepo: landing/main
   srcname: python-pipx
@@ -1718,20 +1480,6 @@
   status: outdated
   maintainers:
     - ubuntu-devel-discuss@lists.ubuntu.com
-  categories:
-    - universe/misc
-- repo: ubuntu_22_04
-  subrepo: jammy/universe
-  srcname: python-pipx
-  binnames:
-    - pipx
-  visiblename: python-pipx
-  version: 1.0.0
-  origversion: 1.0.0-1
-  status: outdated
-  maintainers:
-    - team+python@tracker.debian.org
-    - stefanor@debian.org
   categories:
     - universe/misc
 - repo: ubuntu_24_04
@@ -1986,6 +1734,258 @@
   visiblename: pipx
   version: 1.18.1
   origversion: 1.18.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.17.14
+  origversion: 1.17.14-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.17.13
+  origversion: 1.17.13-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.17.12
+  origversion: 1.17.12-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.17.11
+  origversion: 1.17.11-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.17.10
+  origversion: 1.17.10-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.17.3
+  origversion: 1.17.3-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.17.2
+  origversion: 1.17.2-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.17.1
+  origversion: 1.17.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.16.7
+  origversion: 1.16.7-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.16.6
+  origversion: 1.16.6-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.16.5
+  origversion: 1.16.5-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.16.4
+  origversion: 1.16.4-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.16.3
+  origversion: 1.16.3-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.16.2
+  origversion: 1.16.2-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.16.1
+  origversion: 1.16.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.16.0
+  origversion: 1.16.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.15.0
+  origversion: 1.15.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.14.1
+  origversion: 1.14.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.14.0
+  origversion: 1.14.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.13.0
+  origversion: 1.13.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.12.0
+  origversion: 1.12.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.11.2
+  origversion: 1.11.2-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.11.1
+  origversion: 1.11.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.11.0
+  origversion: 1.11.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.10.1
+  origversion: 1.10.1-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.10.0
+  origversion: 1.10.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.8.0
+  origversion: 1.8.0-1~ops2deb
+  status: legacy
+  maintainers:
+    - ops2deb@upciti.com
+- repo: wakemeops
+  subrepo: dev
+  binname: pipx
+  visiblename: pipx
+  version: 1.7.1
+  origversion: 1.7.1-1~ops2deb
   status: legacy
   maintainers:
     - ops2deb@upciti.com
