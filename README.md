@@ -14,25 +14,24 @@ x install pipx
 
 ## Code insight
 
-Total: **47,846** lines of code across **188** files in the top 5 languages.
+Total: **48,825** lines of code across **188** files in the top 5 languages.
 
 | Language | Code | Comments | Blanks | Files |
 |----------|-----:|---------:|-------:|------:|
-| Python | 38,131 | 1,026 | 7,789 | 138 |
-| ReStructuredText | 5,857 | 0 | 2,193 | 39 |
+| Python | 39,046 | 1,028 | 7,958 | 138 |
+| ReStructuredText | 5,921 | 0 | 2,216 | 39 |
 | Toml | 3,501 | 16 | 706 | 8 |
 | Svg | 246 | 0 | 0 | 2 |
 | Json | 65 | 0 | 0 | 1 |
 
 ## OpenSSF Scorecard
 
-Overall score: **8.4 / 10**
+Overall score: **8.5 / 10**
 
 Lowest-scoring checks:
 
-- **Code-Review** (4/10) — Found 11/26 approved changesets -- score normalized to 4
-- **Fuzzing** (0/10) — project is not fuzzed
 - **Branch-Protection** (3/10) — branch protection is not maximal on development and all release branches
+- **Fuzzing** (0/10) — project is not fuzzed
 
 ## Source
 
@@ -42,48 +41,48 @@ Lowest-scoring checks:
 
 ## Release
 
-- **Latest**: `1.18.19` (2026-11-17)
-- **Last commit**: 2026-11-19
+- **Latest**: `1.19.1` (2026-11-23)
+- **Last commit**: 2026-11-23
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 13,017 · **Forks**: 763 · **Open issues**: 1,023 · **Contributors**: 304
+- **Stars**: 13,024 · **Forks**: 762 · **Open issues**: 1,025 · **Contributors**: 310
 
 ## Totals (cumulative)
 
-- **Releases**: 112 · **Merged PRs**: 1210 · **Open PRs**: 7 · **Closed issues**: 1017 · **Open issues**: 6 · **Commits**: 1483
+- **Releases**: 114 · **Merged PRs**: 1219 · **Open PRs**: 2 · **Closed issues**: 1024 · **Open issues**: 1 · **Commits**: 1494
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-24 | 15 | 198 | 7 | 79 | 6 | 64 |
-| last60d | 2026-09-24 | 35 | 302 | 7 | 101 | 6 | 325 |
-| 90d | 2026-08-25 | 41 | 329 | 7 | 109 | 6 | 356 |
-| last180d | 2026-05-27 | 55 | 488 | 7 | 130 | 6 | 539 |
-| 360d | 2025-11-28 | 62 | 567 | 7 | 151 | 6 | 636 |
-| last720d | 2024-12-03 | 63 | 598 | 7 | 209 | 6 | 663 |
+| 30d | 2026-10-25 | 17 | 206 | 2 | 85 | 1 | 75 |
+| last60d | 2026-09-25 | 35 | 311 | 2 | 108 | 1 | 336 |
+| 90d | 2026-08-26 | 41 | 338 | 2 | 116 | 1 | 367 |
+| last180d | 2026-05-28 | 55 | 497 | 2 | 137 | 1 | 550 |
+| 360d | 2025-11-29 | 62 | 576 | 2 | 158 | 1 | 647 |
+| last720d | 2024-12-04 | 63 | 607 | 2 | 215 | 1 | 674 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
-| [pipx.pyz](https://github.com/pypa/pipx/releases/download/1.18.19/pipx.pyz) | 880.1 KiB | `other` |
+| [pipx.pyz](https://github.com/pypa/pipx/releases/download/1.19.1/pipx.pyz) | 882.8 KiB | `other` |
 
 ## Distribution status
 
-Reported by **172** distros on [repology.org](https://repology.org/project/pipx). **10** are ✅ on the latest upstream release, **104** are ⚠️ on an older version.
+Reported by **172** distros on [repology.org](https://repology.org/project/pipx). **2** are ✅ on the latest upstream release, **112** are ⚠️ on an older version.
 
 | Distro | Version | Status |
 |--------|---------|--------|
 | Debian unstable | `1.18.16` | ⚠️ outdated |
-| Debian 14 | `1.15.0` | ⚠️ outdated |
+| Debian 14 | `1.18.16` | ⚠️ outdated |
 | Debian 13 | `1.7.1` | ⚠️ outdated |
 | Ubuntu 26.04 LTS | `1.8.0` | ⚠️ outdated |
 | Ubuntu 24.04 LTS | `1.4.3` | ⚠️ outdated |
 | Arch | `1.18.4` | ⚠️ outdated |
-| Homebrew | `1.18.19` | ✅ latest |
+| Homebrew | `1.18.19` | ⚠️ outdated |
 | Fedora rawhide | `1.18.16` | ⚠️ outdated |
 | Nix unstable | `1.16.6` | ⚠️ outdated |
 | Void | `1.17.2` | ⚠️ outdated |
@@ -99,4 +98,4 @@ Install metadata for pipx lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261123.yml` · 2026-11-23T10:49:37Z._
+_Snapshot: `data/card/261124.yml` · 2026-11-24T10:39:21Z._
