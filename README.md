@@ -26,12 +26,13 @@ Total: **48,825** lines of code across **188** files in the top 5 languages.
 
 ## OpenSSF Scorecard
 
-Overall score: **8.5 / 10**
+Overall score: **8.3 / 10**
 
 Lowest-scoring checks:
 
-- **Branch-Protection** (3/10) — branch protection is not maximal on development and all release branches
+- **Code-Review** (3/10) — Found 10/26 approved changesets -- score normalized to 3
 - **Fuzzing** (0/10) — project is not fuzzed
+- **Branch-Protection** (3/10) — branch protection is not maximal on development and all release branches
 
 ## Source
 
@@ -42,52 +43,33 @@ Lowest-scoring checks:
 ## Release
 
 - **Latest**: `1.19.1` (2026-11-23)
-- **Last commit**: 2026-11-23
+- **Last commit**: 2026-11-24
 - **Assets in release**: 1
 
 ## Popularity
 
-- **Stars**: 13,024 · **Forks**: 762 · **Open issues**: 1,025 · **Contributors**: 310
+- **Stars**: 13,027 · **Forks**: 764 · **Open issues**: 1,025 · **Contributors**: 310
 
 ## Totals (cumulative)
 
-- **Releases**: 114 · **Merged PRs**: 1219 · **Open PRs**: 2 · **Closed issues**: 1024 · **Open issues**: 1 · **Commits**: 1494
+- **Releases**: 114 · **Merged PRs**: 1224 · **Open PRs**: 3 · **Closed issues**: 1024 · **Open issues**: 1 · **Commits**: 1499
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-25 | 17 | 206 | 2 | 85 | 1 | 75 |
-| last60d | 2026-09-25 | 35 | 311 | 2 | 108 | 1 | 336 |
-| 90d | 2026-08-26 | 41 | 338 | 2 | 116 | 1 | 367 |
-| last180d | 2026-05-28 | 55 | 497 | 2 | 137 | 1 | 550 |
-| 360d | 2025-11-29 | 62 | 576 | 2 | 158 | 1 | 647 |
-| last720d | 2024-12-04 | 63 | 607 | 2 | 215 | 1 | 674 |
+| 30d | 2026-10-26 | 17 | 211 | 3 | 85 | 1 | 80 |
+| last60d | 2026-09-26 | 35 | 316 | 3 | 108 | 1 | 341 |
+| 90d | 2026-08-27 | 41 | 343 | 3 | 116 | 1 | 372 |
+| last180d | 2026-05-29 | 55 | 502 | 3 | 137 | 1 | 555 |
+| 360d | 2025-11-30 | 62 | 581 | 3 | 158 | 1 | 652 |
+| last720d | 2024-12-05 | 63 | 612 | 3 | 215 | 1 | 679 |
 
 ## Release assets
 
 | Asset | Size | Target |
 |-------|-----:|--------|
 | [pipx.pyz](https://github.com/pypa/pipx/releases/download/1.19.1/pipx.pyz) | 882.8 KiB | `other` |
-
-## Distribution status
-
-Reported by **172** distros on [repology.org](https://repology.org/project/pipx). **2** are ✅ on the latest upstream release, **112** are ⚠️ on an older version.
-
-| Distro | Version | Status |
-|--------|---------|--------|
-| Debian unstable | `1.18.16` | ⚠️ outdated |
-| Debian 14 | `1.18.16` | ⚠️ outdated |
-| Debian 13 | `1.7.1` | ⚠️ outdated |
-| Ubuntu 26.04 LTS | `1.8.0` | ⚠️ outdated |
-| Ubuntu 24.04 LTS | `1.4.3` | ⚠️ outdated |
-| Arch | `1.18.4` | ⚠️ outdated |
-| Homebrew | `1.18.19` | ⚠️ outdated |
-| Fedora rawhide | `1.18.16` | ⚠️ outdated |
-| Nix unstable | `1.16.6` | ⚠️ outdated |
-| Void | `1.17.2` | ⚠️ outdated |
-| Alpine edge | `1.18.16` | ⚠️ outdated |
-| openSUSE Tumbleweed | `1.15.0` | ⚠️ outdated |
 
 ## Improve this data
 
@@ -98,4 +80,4 @@ Install metadata for pipx lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261124.yml` · 2026-11-24T10:39:21Z._
+_Snapshot: `data/card/261125.yml` · 2026-11-25T10:04:19Z._
