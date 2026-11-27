@@ -48,22 +48,22 @@ Lowest-scoring checks:
 
 ## Popularity
 
-- **Stars**: 13,030 · **Forks**: 765 · **Open issues**: 1,026 · **Contributors**: 310
+- **Stars**: 13,040 · **Forks**: 775 · **Open issues**: 1,026 · **Contributors**: 310
 
 ## Totals (cumulative)
 
-- **Releases**: 114 · **Merged PRs**: 1224 · **Open PRs**: 5 · **Closed issues**: 1024 · **Open issues**: 2 · **Commits**: 1499
+- **Releases**: 114 · **Merged PRs**: 1224 · **Open PRs**: 6 · **Closed issues**: 1024 · **Open issues**: 2 · **Commits**: 1499
 
 ## Recent activity
 
 | Window | Since | Releases | Merged PRs | Open PRs | Closed issues | Open issues | Commits |
 |---|---|---:|---:|---:|---:|---:|---:|
-| 30d | 2026-10-27 | 17 | 204 | 5 | 85 | 2 | 80 |
-| last60d | 2026-09-27 | 35 | 316 | 5 | 108 | 2 | 341 |
-| 90d | 2026-08-28 | 41 | 343 | 5 | 114 | 2 | 372 |
-| last180d | 2026-05-30 | 55 | 502 | 5 | 137 | 2 | 555 |
-| 360d | 2025-12-01 | 62 | 581 | 5 | 158 | 2 | 652 |
-| last720d | 2024-12-06 | 63 | 612 | 5 | 214 | 2 | 679 |
+| 30d | 2026-10-28 | 16 | 110 | 6 | 24 | 2 | 80 |
+| last60d | 2026-09-28 | 35 | 314 | 6 | 108 | 2 | 341 |
+| 90d | 2026-08-29 | 41 | 338 | 6 | 113 | 2 | 372 |
+| last180d | 2026-05-31 | 54 | 502 | 6 | 137 | 2 | 555 |
+| 360d | 2025-12-02 | 62 | 581 | 6 | 158 | 2 | 652 |
+| last720d | 2024-12-07 | 63 | 612 | 6 | 214 | 2 | 679 |
 
 ## Release assets
 
@@ -80,4 +80,4 @@ Install metadata for pipx lives in the [x-cmd/install](https://github.com/x-cmd/
 
 The data on this page (card / loc / scorecard / release) is auto-collected by [x-cmd-install-action](https://github.com/x-cmd-install/x-cmd-install-action) and is regenerated daily. Improvements to *install behaviour* (which version gets installed, platform-specific quirks, dependencies) belong upstream in the index.
 
-_Snapshot: `data/card/261126.yml` · 2026-11-26T08:59:47Z._
+_Snapshot: `data/card/261127.yml` · 2026-11-27T09:58:24Z._
