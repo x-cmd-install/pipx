@@ -1,9 +1,9 @@
 {
-  "url": "https://api.github.com/repos/pypa/pipx/releases/456029068",
-  "assets_url": "https://api.github.com/repos/pypa/pipx/releases/456029068/assets",
-  "upload_url": "https://uploads.github.com/repos/pypa/pipx/releases/456029068/assets{?name,label}",
-  "html_url": "https://github.com/pypa/pipx/releases/tag/1.19.1",
-  "id": 456029068,
+  "url": "https://api.github.com/repos/pypa/pipx/releases/461227116",
+  "assets_url": "https://api.github.com/repos/pypa/pipx/releases/461227116/assets",
+  "upload_url": "https://uploads.github.com/repos/pypa/pipx/releases/461227116/assets{?name,label}",
+  "html_url": "https://github.com/pypa/pipx/releases/tag/1.19.2",
+  "id": 461227116,
   "author": {
     "login": "github-actions[bot]",
     "id": 41898282,
@@ -25,21 +25,21 @@
     "user_view_type": "public",
     "site_admin": false
   },
-  "node_id": "RE_kwDOCQ1fNs4bLnOM",
-  "tag_name": "1.19.1",
+  "node_id": "RE_kwDOCQ1fNs4bfcRs",
+  "tag_name": "1.19.2",
   "target_commitish": "main",
-  "name": "1.19.1",
+  "name": "1.19.2",
   "draft": false,
   "immutable": true,
   "prerelease": false,
-  "created_at": "2026-11-23T21:37:34Z",
-  "updated_at": "2026-11-23T21:39:25Z",
-  "published_at": "2026-11-23T21:39:25Z",
+  "created_at": "2026-11-28T01:53:22Z",
+  "updated_at": "2026-11-28T01:55:02Z",
+  "published_at": "2026-11-28T01:55:02Z",
   "assets": [
     {
-      "url": "https://api.github.com/repos/pypa/pipx/releases/assets/784639362",
-      "id": 784639362,
-      "node_id": "RA_kwDOCQ1fNs4uxKWC",
+      "url": "https://api.github.com/repos/pypa/pipx/releases/assets/802813808",
+      "id": 802813808,
+      "node_id": "RA_kwDOCQ1fNs4v2fdw",
       "name": "pipx.pyz",
       "label": "",
       "uploader": {
@@ -65,19 +65,19 @@
       },
       "content_type": "application/octet-stream",
       "state": "uploaded",
-      "size": 903995,
-      "digest": "sha256:4b15086c3724edabd974db5f219f63f3e516029074f5990518aee1dde7f24191",
-      "download_count": 6538,
-      "created_at": "2026-11-23T21:39:24Z",
-      "updated_at": "2026-11-23T21:39:24Z",
-      "browser_download_url": "https://github.com/pypa/pipx/releases/download/1.19.1/pipx.pyz"
+      "size": 908170,
+      "digest": "sha256:50c52711edcb3614805b72d254de4bc7dd26347121e67912639215b6f66e74b7",
+      "download_count": 402,
+      "created_at": "2026-11-28T01:55:01Z",
+      "updated_at": "2026-11-28T01:55:01Z",
+      "browser_download_url": "https://github.com/pypa/pipx/releases/download/1.19.2/pipx.pyz"
     }
   ],
-  "tarball_url": "https://api.github.com/repos/pypa/pipx/tarball/1.19.1",
-  "zipball_url": "https://api.github.com/repos/pypa/pipx/zipball/1.19.1",
-  "body": "<a name=\"release-1-19-1-fixed\"></a>\n\n### Bug fixes\n\n- Return a nonzero exit code and report failed removals when `pipx cache purge` cannot remove a cached environment ([#2499](https://github.com/pypa/pipx/pull/2499)) by @gaborbernat and @tolgacodes-dev.\n\n<a name=\"release-1-19-1-documentation\"></a>\n\n### Documentation\n\n- Preserve existing destinations in the Windows move guide and rebuild environments from the new pipx home ([#2500](https://github.com/pypa/pipx/pull/2500)) by @gaborbernat and @xhl123XHL352.\n\n[🐍 PyPI release](https://pypi.org/project/pipx/1.19.1/)\n\n[📜 Full Changelog](https://github.com/pypa/pipx/compare/1.19.0...1.19.1)\n",
+  "tarball_url": "https://api.github.com/repos/pypa/pipx/tarball/1.19.2",
+  "zipball_url": "https://api.github.com/repos/pypa/pipx/zipball/1.19.2",
+  "body": "<a name=\"release-1-19-2-fixed\"></a>\n\n### Bug fixes\n\n- A manifest that is not valid UTF-8 now reports that pipx cannot read it, instead of ending in a traceback ([#2512](https://github.com/pypa/pipx/pull/2512)) by @qianeric-backup and @gaborbernat.\n- Report invalid PEP 723 script command names before installation and suggest using `--app` with a valid name ([#2511](https://github.com/pypa/pipx/pull/2511)) by @xixi-box and @gaborbernat.\n- Run a script from a URL or a named pipe that starts with a UTF-8 byte order mark, instead of failing with a `SyntaxError` ([#2513](https://github.com/pypa/pipx/pull/2513)) by @DheerajPiduru52 and @gaborbernat.\n- Stop pipx from crashing with `InterpolationSyntaxError` when the pipx home, or the virtual environment given to `--python`, has a `%` in its path ([#2504](https://github.com/pypa/pipx/pull/2504)) by @DheerajPiduru52 and @gaborbernat.\n- Treat an empty `PIPX_DEFAULT_PYTHON` as unset again, as pipx does for its path variables, instead of failing every command with an interpreter error ([#2505](https://github.com/pypa/pipx/pull/2505)) by @DheerajPiduru52.\n- `pipx run` now infers entry points for local project paths whose names contain no normalization characters (such as `dist/my-app`) on both the `pip` and `uv` backends ([#2502](https://github.com/pypa/pipx/pull/2502)) by @Cyber-Marty and @gaborbernat.\n\n<a name=\"release-1-19-2-documentation\"></a>\n\n### Documentation\n\n- Move the package author guide to the how-to section as `Make packages compatible` and document shipping man pages and shell completion scripts with setuptools, pdm-backend, uv_build and hatchling ([#2514](https://github.com/pypa/pipx/pull/2514)) by @Vrihub and @gaborbernat.\n\n### New Contributors\n\n- @DheerajPiduru52 made their first contribution in https://github.com/pypa/pipx/pull/2513\n- @Vrihub made their first contribution in https://github.com/pypa/pipx/pull/2514\n- @qianeric-backup made their first contribution in https://github.com/pypa/pipx/pull/2512\n\n[🐍 PyPI release](https://pypi.org/project/pipx/1.19.2/)\n\n[📜 Full Changelog](https://github.com/pypa/pipx/compare/1.19.1...1.19.2)\n",
   "reactions": {
-    "url": "https://api.github.com/repos/pypa/pipx/releases/456029068/reactions",
+    "url": "https://api.github.com/repos/pypa/pipx/releases/461227116/reactions",
     "total_count": 1,
     "+1": 0,
     "-1": 0,
@@ -88,5 +88,5 @@
     "rocket": 0,
     "eyes": 0
   },
-  "mentions_count": 3
+  "mentions_count": 6
 }
